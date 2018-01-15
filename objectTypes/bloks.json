@@ -1,1 +1,42 @@
-{"name":"bloks","plugin-id":"Sprite","sid":902038895020312,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[{"behaviorId":"solid","name":"Твердый","sid":382204542516134}],"effectTypes":[],"animations":{"items":[{"frames":[{"width":16,"height":16,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":30,"duration":1}],"sid":874837903305158,"name":"Animation 1","isLooping":false,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":5}],"subfolders":[]}}
+{
+	"name": "bloks",
+	"plugin-id": "Sprite",
+	"sid": 902038895020312,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Твердый",
+			"sid": 382204542516134
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 30,
+						"duration": 1
+					}
+				],
+				"sid": 874837903305158,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

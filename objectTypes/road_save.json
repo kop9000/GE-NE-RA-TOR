@@ -1,1 +1,9 @@
-{"name":"road_save","plugin-id":"Text","sid":696849317785879,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[],"effectTypes":[]}
+{
+	"name": "road_save",
+	"plugin-id": "Text",
+	"sid": 696849317785879,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

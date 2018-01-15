@@ -1,1 +1,362 @@
-{"name":"menu","events":[{"eventType":"group","disabled":false,"title":"Цвет текста при касания курсора мышки","description":"","isActiveOnStart":true,"children":[{"eventType":"block","conditions":[{"id":"cursor-is-over-object","objectClass":"Мышь","sid":286834759281902,"parameters":{"object":"menu_Key1"}},{"id":"compare-eventvar","objectClass":"System","sid":311950596251277,"parameters":{"variable":"key","comparison":0,"value":"0"}}],"actions":[{"id":"set-font-color","objectClass":"menu_Key1","sid":219496187844512,"parameters":{"color":"rgb(290, 45, 45)"}}],"sid":935422957239962},{"eventType":"block","conditions":[{"id":"else","objectClass":"System","sid":188882994124988},{"id":"compare-eventvar","objectClass":"System","sid":448524899122294,"parameters":{"variable":"key","comparison":0,"value":"0"}},{"id":"every-tick","objectClass":"System","sid":740722905846698}],"actions":[{"id":"set-font-color","objectClass":"menu_Key1","sid":819953061205963,"parameters":{"color":"rgb(255,255, 255)"}}],"sid":791151519421389},{"eventType":"block","conditions":[{"id":"cursor-is-over-object","objectClass":"Мышь","sid":699449645824875,"parameters":{"object":"menu_Key2"}},{"id":"compare-eventvar","objectClass":"System","sid":593106029910792,"parameters":{"variable":"key","comparison":0,"value":"0"}}],"actions":[{"id":"set-font-color","objectClass":"menu_Key2","sid":979600274170284,"parameters":{"color":"rgb(290, 45, 45)"}}],"sid":272735419370264},{"eventType":"block","conditions":[{"id":"else","objectClass":"System","sid":167905304997534},{"id":"compare-eventvar","objectClass":"System","sid":388797617581445,"parameters":{"variable":"key","comparison":0,"value":"0"}},{"id":"every-tick","objectClass":"System","sid":481582304416463}],"actions":[{"id":"set-font-color","objectClass":"menu_Key2","sid":684740831684368,"parameters":{"color":"rgb(255,255, 255)"}}],"sid":252692392404179},{"eventType":"block","conditions":[{"id":"cursor-is-over-object","objectClass":"Мышь","sid":840990734578814,"parameters":{"object":"menu_Key3"}},{"id":"compare-eventvar","objectClass":"System","sid":485668515492072,"parameters":{"variable":"key","comparison":0,"value":"0"}}],"actions":[{"id":"set-font-color","objectClass":"menu_Key3","sid":174275739234260,"parameters":{"color":"rgb(290, 45, 45)"}}],"sid":803628894884285},{"eventType":"block","conditions":[{"id":"else","objectClass":"System","sid":883340585666824},{"id":"compare-eventvar","objectClass":"System","sid":718780272630711,"parameters":{"variable":"key","comparison":0,"value":"0"}},{"id":"every-tick","objectClass":"System","sid":271141307417247}],"actions":[{"id":"set-font-color","objectClass":"menu_Key3","sid":406477229664011,"parameters":{"color":"rgb(255,255, 255)"}}],"sid":755967500206873}],"sid":456118672892891},{"eventType":"group","disabled":false,"title":"Звук при касания курсора мышки на текст","description":"","isActiveOnStart":true,"children":[{"eventType":"block","conditions":[{"id":"cursor-is-over-object","objectClass":"Мышь","sid":878080976799559,"parameters":{"object":"menu_Key1"}},{"id":"compare-eventvar","objectClass":"System","sid":830457499492370,"parameters":{"variable":"key","comparison":0,"value":"0"}},{"id":"trigger-once-while-true","objectClass":"System","sid":951401938502167}],"actions":[{"id":"play","objectClass":"Аудио","sid":145292853675313,"parameters":{"audio-file":"menu_key","loop":"not-looping","volume":"0","tag-optional":"\"\""}}],"sid":274020167268273},{"eventType":"block","conditions":[{"id":"cursor-is-over-object","objectClass":"Мышь","sid":503820434499558,"parameters":{"object":"menu_Key2"}},{"id":"compare-eventvar","objectClass":"System","sid":128112549245740,"parameters":{"variable":"key","comparison":0,"value":"0"}},{"id":"trigger-once-while-true","objectClass":"System","sid":654728722770206}],"actions":[{"id":"play","objectClass":"Аудио","sid":250562768401084,"parameters":{"audio-file":"menu_key","loop":"not-looping","volume":"0","tag-optional":"\"\""}}],"sid":204311042616906},{"eventType":"block","conditions":[{"id":"cursor-is-over-object","objectClass":"Мышь","sid":551779220704115,"parameters":{"object":"menu_Key3"}},{"id":"compare-eventvar","objectClass":"System","sid":656784808359896,"parameters":{"variable":"key","comparison":0,"value":"0"}},{"id":"trigger-once-while-true","objectClass":"System","sid":878287075874091}],"actions":[{"id":"play","objectClass":"Аудио","sid":794694306960092,"parameters":{"audio-file":"menu_key","loop":"not-looping","volume":"0","tag-optional":"\"\""}}],"sid":973145161741484}],"sid":489885506825768}],"sid":859874212281072}
+{
+	"name": "menu",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Цвет текста при касания курсора мышки",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Мышь",
+							"sid": 286834759281902,
+							"parameters": {
+								"object": "menu_Key1"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 311950596251277,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "menu_Key1",
+							"sid": 219496187844512,
+							"parameters": {
+								"color": "rgb(290, 45, 45)"
+							}
+						}
+					],
+					"sid": 935422957239962
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 188882994124988
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 448524899122294,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 740722905846698
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "menu_Key1",
+							"sid": 819953061205963,
+							"parameters": {
+								"color": "rgb(255,255, 255)"
+							}
+						}
+					],
+					"sid": 791151519421389
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Мышь",
+							"sid": 699449645824875,
+							"parameters": {
+								"object": "menu_Key2"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 593106029910792,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "menu_Key2",
+							"sid": 979600274170284,
+							"parameters": {
+								"color": "rgb(290, 45, 45)"
+							}
+						}
+					],
+					"sid": 272735419370264
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 167905304997534
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 388797617581445,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 481582304416463
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "menu_Key2",
+							"sid": 684740831684368,
+							"parameters": {
+								"color": "rgb(255,255, 255)"
+							}
+						}
+					],
+					"sid": 252692392404179
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Мышь",
+							"sid": 840990734578814,
+							"parameters": {
+								"object": "menu_Key3"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 485668515492072,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "menu_Key3",
+							"sid": 174275739234260,
+							"parameters": {
+								"color": "rgb(290, 45, 45)"
+							}
+						}
+					],
+					"sid": 803628894884285
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 883340585666824
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 718780272630711,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 271141307417247
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "menu_Key3",
+							"sid": 406477229664011,
+							"parameters": {
+								"color": "rgb(255,255, 255)"
+							}
+						}
+					],
+					"sid": 755967500206873
+				}
+			],
+			"sid": 456118672892891
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Звук при касания курсора мышки на текст",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Мышь",
+							"sid": 878080976799559,
+							"parameters": {
+								"object": "menu_Key1"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 830457499492370,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 951401938502167
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Аудио",
+							"sid": 145292853675313,
+							"parameters": {
+								"audio-file": "menu_key",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 274020167268273
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Мышь",
+							"sid": 503820434499558,
+							"parameters": {
+								"object": "menu_Key2"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 128112549245740,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 654728722770206
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Аудио",
+							"sid": 250562768401084,
+							"parameters": {
+								"audio-file": "menu_key",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 204311042616906
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Мышь",
+							"sid": 551779220704115,
+							"parameters": {
+								"object": "menu_Key3"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 656784808359896,
+							"parameters": {
+								"variable": "key",
+								"comparison": 0,
+								"value": "0"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 878287075874091
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Аудио",
+							"sid": 794694306960092,
+							"parameters": {
+								"audio-file": "menu_key",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 973145161741484
+				}
+			],
+			"sid": 489885506825768
+		}
+	],
+	"sid": 859874212281072
+}

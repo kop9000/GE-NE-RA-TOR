@@ -1,1 +1,58 @@
-{"name":"coin","plugin-id":"Sprite","sid":211919919241102,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[],"effectTypes":[],"animations":{"items":[{"frames":[{"width":10,"height":14,"originX":0.5,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":32,"duration":1},{"width":10,"height":14,"originX":0.5,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":37,"duration":1},{"width":10,"height":14,"originX":0.5,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":39,"duration":1}],"sid":204062067198690,"name":"Animation 1","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":7}],"subfolders":[]}}
+{
+	"name": "coin",
+	"plugin-id": "Sprite",
+	"sid": 211919919241102,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 10,
+						"height": 14,
+						"originX": 0.5,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 32,
+						"duration": 1
+					},
+					{
+						"width": 10,
+						"height": 14,
+						"originX": 0.5,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 37,
+						"duration": 1
+					},
+					{
+						"width": 10,
+						"height": 14,
+						"originX": 0.5,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 39,
+						"duration": 1
+					}
+				],
+				"sid": 204062067198690,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			}
+		],
+		"subfolders": []
+	}
+}

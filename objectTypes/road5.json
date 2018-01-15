@@ -1,1 +1,48 @@
-{"name":"road5","plugin-id":"Sprite","sid":561113507037520,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[],"effectTypes":[],"animations":{"items":[{"frames":[{"width":50,"height":32,"originX":0.32,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":93,"collisionPoly":{"points":[0,0,0.64,0,0.64,1,0,1]},"duration":1}],"sid":321802920037616,"name":"Animation 1","isLooping":false,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":5}],"subfolders":[]}}
+{
+	"name": "road5",
+	"plugin-id": "Sprite",
+	"sid": 561113507037520,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 50,
+						"height": 32,
+						"originX": 0.32,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 93,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.64,
+								0,
+								0.64,
+								1,
+								0,
+								1
+							]
+						},
+						"duration": 1
+					}
+				],
+				"sid": 321802920037616,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

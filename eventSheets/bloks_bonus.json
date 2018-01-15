@@ -1,1 +1,602 @@
-{"name":"bloks_bonus","events":[{"eventType":"block","conditions":[{"id":"is-overlapping-at-offset","objectClass":"Спрайт2","sid":941423281034075,"parameters":{"object":"Спрайт6","offset-x":"0","offset-y":"-1"}},{"id":"trigger-once-while-true","objectClass":"System","sid":594137446720604}],"actions":[{"id":"play","objectClass":"Аудио","sid":554973561974367,"parameters":{"audio-file":"smb_powerup_appears","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":828322072713538,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":968982410269928,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":296958857801172,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":633880918883908,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":738214012828907,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":835067029321827,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":979803857727526,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":247394455352275,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":174642026065816,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":434631859378611,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":643743226751529,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":867796699490924,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":931761625412450,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":731208955558090,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":301504052593989,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":346525751452963,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":501320633242449,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":291603463705735,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":578476513040336,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":422109649679202,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":832241848357106,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":740310306893068,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":221532082253512,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":382524479130685,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":403933796005610,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":286477192165463,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":733168800145227,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":300505632446747,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":347206813748991,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":557905604711733,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"Спрайт6","sid":565290442653443,"parameters":{"angle":"90","distance":"2"}},{"id":"set-instvar-value","objectClass":"Спрайт6","sid":409103548944337,"parameters":{"instance-variable":"bonus","value":"random(1, 3)"}}],"sid":863608623598761},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт6","sid":775389484511406,"parameters":{"instance-variable":"bonus","comparison":4,"value":"1"}},{"id":"compare-instance-variable","objectClass":"Спрайт6","sid":419977669146908,"parameters":{"instance-variable":"bonus","comparison":2,"value":"2"}}],"actions":[{"id":"spawn-another-object","objectClass":"Спрайт6","sid":897873152575820,"parameters":{"object":"Спрайт","layer":"\"l2\"","image-point":"0"}},{"id":"set-animation","objectClass":"Спрайт","sid":196119635951770,"parameters":{"animation":"\"b1\"","from":"beginning"}},{"id":"set-angle-of-motion","objectClass":"Спрайт","sid":520173745087534,"behaviorType":"Пуля","parameters":{"angle":"random(60, 120)"}},{"id":"set-speed","objectClass":"Спрайт","sid":117332649910454,"behaviorType":"Пуля","parameters":{"speed":"random(200, 350)"}},{"id":"set-enabled","objectClass":"Спрайт","sid":980817343181103,"behaviorType":"Пуля","parameters":{"state":"enabled"}},{"id":"set-instvar-value","objectClass":"Спрайт6","sid":813158923313157,"parameters":{"instance-variable":"bonus","value":"0"}}],"sid":420394943174618},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт6","sid":891764560422763,"parameters":{"instance-variable":"bonus","comparison":4,"value":"2"}},{"id":"compare-instance-variable","objectClass":"Спрайт6","sid":482959969601327,"parameters":{"instance-variable":"bonus","comparison":2,"value":"3"}}],"actions":[{"id":"spawn-another-object","objectClass":"Спрайт6","sid":468296616851027,"parameters":{"object":"Спрайт","layer":"\"l2\"","image-point":"0"}},{"id":"set-animation","objectClass":"Спрайт","sid":433418874552229,"parameters":{"animation":"\"b2\"","from":"beginning"}},{"id":"set-angle-of-motion","objectClass":"Спрайт","sid":611514305397256,"behaviorType":"Пуля","parameters":{"angle":"random(60, 120)"}},{"id":"set-speed","objectClass":"Спрайт","sid":318657505853632,"behaviorType":"Пуля","parameters":{"speed":"random(200, 350)"}},{"id":"set-enabled","objectClass":"Спрайт","sid":124290826287158,"behaviorType":"Пуля","parameters":{"state":"enabled"}},{"id":"set-instvar-value","objectClass":"Спрайт6","sid":174193314900352,"parameters":{"instance-variable":"bonus","value":"0"}}],"sid":166770949311421},{"eventType":"block","conditions":[{"id":"on-collision-with-another-object","objectClass":"Спрайт2","sid":553523440947518,"parameters":{"object":"Спрайт"}},{"id":"is-animation-playing","objectClass":"Спрайт","sid":580472532429735,"parameters":{"animation":"\"b1\""}}],"actions":[{"id":"set-eventvar-value","objectClass":"System","sid":301624504868010,"parameters":{"variable":"del","value":"1"}},{"id":"set-instvar-value","objectClass":"Спрайт2","sid":763971066287493,"parameters":{"instance-variable":"a","value":"0"}},{"id":"destroy","objectClass":"Спрайт","sid":634744025850127},{"id":"wait","objectClass":"System","sid":311206083298349,"parameters":{"seconds":"5"}},{"id":"set-enabled","objectClass":"Спрайт","sid":290898000959995,"behaviorType":"Пуля","parameters":{"state":"disabled"}},{"id":"wait","objectClass":"System","sid":805062601223716,"parameters":{"seconds":"2"}},{"id":"create-object","objectClass":"System","sid":657053993142460,"parameters":{"object-to-create":"Спрайт4","layer":"\"l2\"","x":"scrollx-320","y":"scrolly-240"}},{"id":"set-animation","objectClass":"Спрайт4","sid":266287226201264,"parameters":{"animation":"\"a2\"","from":"beginning"}},{"id":"restart-fade","objectClass":"Спрайт4","sid":184603092054464,"behaviorType":"Исчезновение"},{"id":"set-fade-in-time","objectClass":"Спрайт4","sid":674507510494617,"behaviorType":"Исчезновение","parameters":{"fade-in-time":"5"}},{"id":"wait","objectClass":"System","sid":457012467911961,"parameters":{"seconds":"5"}},{"id":"go-to-layout","objectClass":"System","sid":843949036253657,"parameters":{"layout":"lol"}}],"sid":843636434433899}],"sid":947597560085584}
+{
+	"name": "bloks_bonus",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-at-offset",
+					"objectClass": "Спрайт2",
+					"sid": 941423281034075,
+					"parameters": {
+						"object": "Спрайт6",
+						"offset-x": "0",
+						"offset-y": "-1"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 594137446720604
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 554973561974367,
+					"parameters": {
+						"audio-file": "smb_powerup_appears",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 828322072713538,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 968982410269928,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 296958857801172,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 633880918883908,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 738214012828907,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 835067029321827,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 979803857727526,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 247394455352275,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 174642026065816,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 434631859378611,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 643743226751529,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 867796699490924,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 931761625412450,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 731208955558090,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 301504052593989,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 346525751452963,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 501320633242449,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 291603463705735,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 578476513040336,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 422109649679202,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 832241848357106,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 740310306893068,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 221532082253512,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 382524479130685,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 403933796005610,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 286477192165463,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 733168800145227,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 300505632446747,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 347206813748991,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 557905604711733,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт6",
+					"sid": 565290442653443,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт6",
+					"sid": 409103548944337,
+					"parameters": {
+						"instance-variable": "bonus",
+						"value": "random(1, 3)"
+					}
+				}
+			],
+			"sid": 863608623598761
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт6",
+					"sid": 775389484511406,
+					"parameters": {
+						"instance-variable": "bonus",
+						"comparison": 4,
+						"value": "1"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт6",
+					"sid": 419977669146908,
+					"parameters": {
+						"instance-variable": "bonus",
+						"comparison": 2,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Спрайт6",
+					"sid": 897873152575820,
+					"parameters": {
+						"object": "Спрайт",
+						"layer": "\"l2\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт",
+					"sid": 196119635951770,
+					"parameters": {
+						"animation": "\"b1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Спрайт",
+					"sid": 520173745087534,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"angle": "random(60, 120)"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Спрайт",
+					"sid": 117332649910454,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"speed": "random(200, 350)"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Спрайт",
+					"sid": 980817343181103,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт6",
+					"sid": 813158923313157,
+					"parameters": {
+						"instance-variable": "bonus",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 420394943174618
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт6",
+					"sid": 891764560422763,
+					"parameters": {
+						"instance-variable": "bonus",
+						"comparison": 4,
+						"value": "2"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт6",
+					"sid": 482959969601327,
+					"parameters": {
+						"instance-variable": "bonus",
+						"comparison": 2,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Спрайт6",
+					"sid": 468296616851027,
+					"parameters": {
+						"object": "Спрайт",
+						"layer": "\"l2\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт",
+					"sid": 433418874552229,
+					"parameters": {
+						"animation": "\"b2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Спрайт",
+					"sid": 611514305397256,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"angle": "random(60, 120)"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Спрайт",
+					"sid": 318657505853632,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"speed": "random(200, 350)"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Спрайт",
+					"sid": 124290826287158,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт6",
+					"sid": 174193314900352,
+					"parameters": {
+						"instance-variable": "bonus",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 166770949311421
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Спрайт2",
+					"sid": 553523440947518,
+					"parameters": {
+						"object": "Спрайт"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Спрайт",
+					"sid": 580472532429735,
+					"parameters": {
+						"animation": "\"b1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 301624504868010,
+					"parameters": {
+						"variable": "del",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт2",
+					"sid": 763971066287493,
+					"parameters": {
+						"instance-variable": "a",
+						"value": "0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Спрайт",
+					"sid": 634744025850127
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 311206083298349,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Спрайт",
+					"sid": 290898000959995,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 805062601223716,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 657053993142460,
+					"parameters": {
+						"object-to-create": "Спрайт4",
+						"layer": "\"l2\"",
+						"x": "scrollx-320",
+						"y": "scrolly-240"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт4",
+					"sid": 266287226201264,
+					"parameters": {
+						"animation": "\"a2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "restart-fade",
+					"objectClass": "Спрайт4",
+					"sid": 184603092054464,
+					"behaviorType": "Исчезновение"
+				},
+				{
+					"id": "set-fade-in-time",
+					"objectClass": "Спрайт4",
+					"sid": 674507510494617,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-in-time": "5"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 457012467911961,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 843949036253657,
+					"parameters": {
+						"layout": "lol"
+					}
+				}
+			],
+			"sid": 843636434433899
+		}
+	],
+	"sid": 947597560085584
+}

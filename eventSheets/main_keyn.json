@@ -1,1 +1,171 @@
-{"name":"main_keyn","events":[{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":613607965263657,"parameters":{"instance-variable":"s1","comparison":0,"value":"0"}},{"id":"key-is-down","objectClass":"Клавиатура","sid":500624777816545,"parameters":{"key":39}}],"actions":[{"id":"set-animation","objectClass":"Спрайт7","sid":440402269847140,"parameters":{"animation":"\"s1\"","from":"current-frame"}}],"sid":510794984474695},{"eventType":"block","conditions":[{"id":"on-key-released","objectClass":"Клавиатура","sid":415906642417474,"parameters":{"key":39}}],"actions":[{"id":"set-animation","objectClass":"Спрайт7","sid":101253272644480,"parameters":{"animation":"\"s0\"","from":"current-frame"}}],"sid":829501684152816},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":264297643945899,"parameters":{"instance-variable":"s1","comparison":0,"value":"0"}},{"id":"key-is-down","objectClass":"Клавиатура","sid":368062792592096,"parameters":{"key":37}}],"actions":[{"id":"set-animation","objectClass":"Спрайт7","sid":813244562022187,"parameters":{"animation":"\"s2\"","from":"current-frame"}}],"sid":986204959296131},{"eventType":"block","conditions":[{"id":"on-key-released","objectClass":"Клавиатура","sid":461517728490178,"parameters":{"key":37}}],"actions":[{"id":"set-animation","objectClass":"Спрайт7","sid":976307361934081,"parameters":{"animation":"\"s0\"","from":"current-frame"}}],"sid":295595900125156},{"eventType":"block","conditions":[{"id":"on-key-pressed","objectClass":"Клавиатура","sid":223250300228398,"parameters":{"key":32}},{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":674597491805315,"parameters":{"instance-variable":"s1","comparison":0,"value":"0"}}],"actions":[{"id":"spawn-another-object","objectClass":"Спрайт7","sid":111991152670344,"parameters":{"object":"Спрайт22","layer":"\"m1\"","image-point":"1"}},{"id":"set-angle-of-motion","objectClass":"Спрайт22","sid":312077405965858,"behaviorType":"Пуля","parameters":{"angle":"270"}}],"sid":518287061252912}],"sid":798990108142949}
+{
+	"name": "main_keyn",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 613607965263657,
+					"parameters": {
+						"instance-variable": "s1",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 500624777816545,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт7",
+					"sid": 440402269847140,
+					"parameters": {
+						"animation": "\"s1\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 510794984474695
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Клавиатура",
+					"sid": 415906642417474,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт7",
+					"sid": 101253272644480,
+					"parameters": {
+						"animation": "\"s0\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 829501684152816
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 264297643945899,
+					"parameters": {
+						"instance-variable": "s1",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 368062792592096,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт7",
+					"sid": 813244562022187,
+					"parameters": {
+						"animation": "\"s2\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 986204959296131
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Клавиатура",
+					"sid": 461517728490178,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт7",
+					"sid": 976307361934081,
+					"parameters": {
+						"animation": "\"s0\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 295595900125156
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 223250300228398,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 674597491805315,
+					"parameters": {
+						"instance-variable": "s1",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Спрайт7",
+					"sid": 111991152670344,
+					"parameters": {
+						"object": "Спрайт22",
+						"layer": "\"m1\"",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Спрайт22",
+					"sid": 312077405965858,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"angle": "270"
+					}
+				}
+			],
+			"sid": 518287061252912
+		}
+	],
+	"sid": 798990108142949
+}

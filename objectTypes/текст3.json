@@ -1,1 +1,9 @@
-{"name":"Текст3","plugin-id":"Text","sid":443424578533417,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[],"effectTypes":[]}
+{
+	"name": "Текст3",
+	"plugin-id": "Text",
+	"sid": 443424578533417,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

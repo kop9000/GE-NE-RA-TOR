@@ -1,1 +1,62 @@
-{"name":"Спрайт26","plugin-id":"Sprite","sid":548175137603758,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[{"behaviorId":"solid","name":"Твердый","sid":206830932151588}],"effectTypes":[],"animations":{"items":[{"frames":[{"width":73,"height":19,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":99,"collisionPoly":{"points":[0.21643835616438356,0.3157894736842107,0.5013698630136987,0.07894736842105264,0.782191780821918,0.31052631578947365,0.8890410958904111,0.5526315789473686,0.9931506849315068,0.9894736842105263,0.5054794520547946,1,0,0.9947368421052631,0.10547945205479446,0.5789473684210527]},"duration":1}],"sid":262910082395650,"name":"Animation 1","isLooping":false,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":5}],"subfolders":[]}}
+{
+	"name": "Спрайт26",
+	"plugin-id": "Sprite",
+	"sid": 548175137603758,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Твердый",
+			"sid": 206830932151588
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 73,
+						"height": 19,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 99,
+						"collisionPoly": {
+							"points": [
+								0.21643835616438356,
+								0.3157894736842107,
+								0.5013698630136987,
+								0.07894736842105264,
+								0.782191780821918,
+								0.31052631578947365,
+								0.8890410958904111,
+								0.5526315789473686,
+								0.9931506849315068,
+								0.9894736842105263,
+								0.5054794520547946,
+								1,
+								0,
+								0.9947368421052631,
+								0.10547945205479446,
+								0.5789473684210527
+							]
+						},
+						"duration": 1
+					}
+				],
+				"sid": 262910082395650,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

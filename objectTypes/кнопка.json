@@ -1,1 +1,8 @@
-{"name":"Кнопка","plugin-id":"Button","sid":373535276681309,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[]}
+{
+	"name": "Кнопка",
+	"plugin-id": "Button",
+	"sid": 373535276681309,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

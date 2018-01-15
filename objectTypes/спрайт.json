@@ -1,1 +1,69 @@
-{"name":"Спрайт","plugin-id":"Sprite","sid":622714635359110,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[{"behaviorId":"solid","name":"Твердый","sid":770000901945730},{"behaviorId":"Bullet","name":"Пуля","sid":619751488538686}],"effectTypes":[],"animations":{"items":[{"frames":[{"width":32,"height":32,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":35,"duration":1}],"sid":873741418813733,"name":"b1","isLooping":false,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":5},{"frames":[{"width":32,"height":32,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":33,"duration":1}],"sid":891487508114857,"name":"b2","isLooping":false,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":5}],"subfolders":[]}}
+{
+	"name": "Спрайт",
+	"plugin-id": "Sprite",
+	"sid": 622714635359110,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Твердый",
+			"sid": 770000901945730
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Пуля",
+			"sid": 619751488538686
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 35,
+						"duration": 1
+					}
+				],
+				"sid": 873741418813733,
+				"name": "b1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 33,
+						"duration": 1
+					}
+				],
+				"sid": 891487508114857,
+				"name": "b2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

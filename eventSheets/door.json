@@ -1,1 +1,334 @@
-{"name":"door","events":[{"eventType":"block","conditions":[{"id":"on-key-pressed","objectClass":"Клавиатура","sid":584208679092286,"parameters":{"key":69}},{"id":"is-overlapping-another-object","objectClass":"Спрайт2","sid":618658055169350,"parameters":{"object":"door1"}}],"actions":[{"id":"set-instvar-value","objectClass":"Спрайт2","sid":614313182019308,"parameters":{"instance-variable":"a","value":"0"}},{"id":"create-object","objectClass":"System","sid":620546420827629,"parameters":{"object-to-create":"Спрайт4","layer":"\"sef1\"","x":"0","y":"0"}},{"id":"set-fade-in-time","objectClass":"Спрайт4","sid":319341533913739,"behaviorType":"Исчезновение","parameters":{"fade-in-time":"3"}},{"id":"set-wait-time","objectClass":"Спрайт4","sid":431065527472458,"behaviorType":"Исчезновение","parameters":{"wait-time":"1"}},{"id":"set-fade-out-time","objectClass":"Спрайт4","sid":449136563405850,"behaviorType":"Исчезновение","parameters":{"fade-out-time":"0"}},{"id":"restart-fade","objectClass":"Спрайт4","sid":950773898173358,"behaviorType":"Исчезновение"},{"id":"wait","objectClass":"System","sid":500423242751458,"parameters":{"seconds":"3"}},{"id":"go-to-layout","objectClass":"System","sid":182009824550820,"parameters":{"layout":"main2"}}],"sid":286013615148321},{"eventType":"block","conditions":[{"id":"on-key-pressed","objectClass":"Клавиатура","sid":332808286533658,"parameters":{"key":69}},{"id":"is-overlapping-another-object","objectClass":"Спрайт2","sid":478970739606578,"parameters":{"object":"door2"}}],"actions":[{"id":"go-to-layout","objectClass":"System","sid":534608809360373,"parameters":{"layout":"main"}},{"id":"play","objectClass":"Аудио","sid":911951520623399,"parameters":{"audio-file":"smb_1-up","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"set-eventvar-value","objectClass":"System","sid":665503658943529,"parameters":{"variable":"del","value":"1"}}],"sid":480661782655449},{"eventType":"block","conditions":[{"id":"compare-eventvar","objectClass":"System","sid":348853979709386,"parameters":{"variable":"del","comparison":0,"value":"1"}}],"actions":[{"id":"add-gain-effect","objectClass":"Аудио","sid":775170790719953,"parameters":{"tag":"\"l\"","gain":"-0.5"}},{"id":"wait","objectClass":"System","sid":838936805020829,"parameters":{"seconds":"1"}},{"id":"remove-all-effects","objectClass":"Аудио","sid":245251351807450,"parameters":{"tag":"\"l\""}},{"id":"stop","objectClass":"Аудио","sid":328420732041373,"parameters":{"tag":"\"l\""}},{"id":"set-eventvar-value","objectClass":"System","sid":900139125133475,"parameters":{"variable":"del","value":"0"}}],"sid":554711612339349},{"eventType":"block","conditions":[{"id":"on-key-pressed","objectClass":"Клавиатура","sid":752024913642687,"parameters":{"key":40}},{"id":"is-overlapping-another-object","objectClass":"Спрайт2","sid":515369614255390,"parameters":{"object":"Спрайт19"}}],"actions":[{"id":"stop-all","objectClass":"Аудио","sid":567701734249874},{"id":"play","objectClass":"Аудио","sid":494040418544235,"parameters":{"audio-file":"smb_pipe","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"set-collisions-enabled","objectClass":"Спрайт2","sid":105436862226351,"parameters":{"collisions":"disabled"}},{"id":"set-enabled","objectClass":"Спрайт2","sid":194456591919316,"behaviorType":"Платформа","parameters":{"state":"disabled"}},{"id":"move-at-angle","objectClass":"Спрайт2","sid":670340217347840,"parameters":{"angle":"-90","distance":"5"}},{"id":"wait","objectClass":"System","sid":746104521549070,"parameters":{"seconds":"0.3"}},{"id":"set-instvar-value","objectClass":"Спрайт2","sid":757020979670871,"parameters":{"instance-variable":"a","value":"0"}},{"id":"destroy","objectClass":"Спрайт2","sid":426134926960217},{"id":"wait","objectClass":"System","sid":696642968627091,"parameters":{"seconds":"2"}},{"id":"create-object","objectClass":"System","sid":651996260576625,"parameters":{"object-to-create":"Спрайт4","layer":"\"l2\"","x":"scrollx-320","y":"scrolly-240"}},{"id":"wait","objectClass":"System","sid":473428836938829,"parameters":{"seconds":"0.5"}},{"id":"go-to-layout","objectClass":"System","sid":398258284652367,"parameters":{"layout":"mario_map2"}}],"sid":913076072362542}],"sid":756706639943306}
+{
+	"name": "door",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 584208679092286,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Спрайт2",
+					"sid": 618658055169350,
+					"parameters": {
+						"object": "door1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт2",
+					"sid": 614313182019308,
+					"parameters": {
+						"instance-variable": "a",
+						"value": "0"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 620546420827629,
+					"parameters": {
+						"object-to-create": "Спрайт4",
+						"layer": "\"sef1\"",
+						"x": "0",
+						"y": "0"
+					}
+				},
+				{
+					"id": "set-fade-in-time",
+					"objectClass": "Спрайт4",
+					"sid": 319341533913739,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-in-time": "3"
+					}
+				},
+				{
+					"id": "set-wait-time",
+					"objectClass": "Спрайт4",
+					"sid": 431065527472458,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"wait-time": "1"
+					}
+				},
+				{
+					"id": "set-fade-out-time",
+					"objectClass": "Спрайт4",
+					"sid": 449136563405850,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-out-time": "0"
+					}
+				},
+				{
+					"id": "restart-fade",
+					"objectClass": "Спрайт4",
+					"sid": 950773898173358,
+					"behaviorType": "Исчезновение"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 500423242751458,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 182009824550820,
+					"parameters": {
+						"layout": "main2"
+					}
+				}
+			],
+			"sid": 286013615148321
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 332808286533658,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Спрайт2",
+					"sid": 478970739606578,
+					"parameters": {
+						"object": "door2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 534608809360373,
+					"parameters": {
+						"layout": "main"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 911951520623399,
+					"parameters": {
+						"audio-file": "smb_1-up",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 665503658943529,
+					"parameters": {
+						"variable": "del",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 480661782655449
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 348853979709386,
+					"parameters": {
+						"variable": "del",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-gain-effect",
+					"objectClass": "Аудио",
+					"sid": 775170790719953,
+					"parameters": {
+						"tag": "\"l\"",
+						"gain": "-0.5"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 838936805020829,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "remove-all-effects",
+					"objectClass": "Аудио",
+					"sid": 245251351807450,
+					"parameters": {
+						"tag": "\"l\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Аудио",
+					"sid": 328420732041373,
+					"parameters": {
+						"tag": "\"l\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 900139125133475,
+					"parameters": {
+						"variable": "del",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 554711612339349
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 752024913642687,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Спрайт2",
+					"sid": 515369614255390,
+					"parameters": {
+						"object": "Спрайт19"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 567701734249874
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 494040418544235,
+					"parameters": {
+						"audio-file": "smb_pipe",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Спрайт2",
+					"sid": 105436862226351,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Спрайт2",
+					"sid": 194456591919316,
+					"behaviorType": "Платформа",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт2",
+					"sid": 670340217347840,
+					"parameters": {
+						"angle": "-90",
+						"distance": "5"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 746104521549070,
+					"parameters": {
+						"seconds": "0.3"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт2",
+					"sid": 757020979670871,
+					"parameters": {
+						"instance-variable": "a",
+						"value": "0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Спрайт2",
+					"sid": 426134926960217
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 696642968627091,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 651996260576625,
+					"parameters": {
+						"object-to-create": "Спрайт4",
+						"layer": "\"l2\"",
+						"x": "scrollx-320",
+						"y": "scrolly-240"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 473428836938829,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 398258284652367,
+					"parameters": {
+						"layout": "mario_map2"
+					}
+				}
+			],
+			"sid": 913076072362542
+		}
+	],
+	"sid": 756706639943306
+}

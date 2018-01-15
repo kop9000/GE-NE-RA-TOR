@@ -1,1 +1,58 @@
-{"name":"ad2","plugin-id":"Sprite","sid":770032607120897,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[],"effectTypes":[],"animations":{"items":[{"frames":[{"width":32,"height":32,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":98,"duration":1},{"width":32,"height":32,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":97,"duration":1},{"width":32,"height":32,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":105,"duration":1}],"sid":985788312352031,"name":"Animation 1","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":8}],"subfolders":[]}}
+{
+	"name": "ad2",
+	"plugin-id": "Sprite",
+	"sid": 770032607120897,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 98,
+						"duration": 1
+					},
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 97,
+						"duration": 1
+					},
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 105,
+						"duration": 1
+					}
+				],
+				"sid": 985788312352031,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 8
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,1 +1,940 @@
-{"name":"ssss","events":[{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":587601732743516,"parameters":{"instance-variable":"wes","comparison":0,"value":"1"}},{"id":"repeat","objectClass":"System","sid":852702503634642,"parameters":{"count":"200"}},{"id":"trigger-once-while-true","objectClass":"System","sid":368122469034845},{"id":"every-x-seconds","objectClass":"System","sid":678402763262121,"parameters":{"interval-seconds":"0.020"}}],"actions":[{"id":"move-at-angle","objectClass":"Спрайт20","sid":112984647358622,"parameters":{"angle":"90","distance":"1"}}],"sid":622795505268595},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":398611049461937,"parameters":{"instance-variable":"wes","comparison":0,"value":"1"}},{"id":"repeat","objectClass":"System","sid":184883773991339,"parameters":{"count":"1"}},{"id":"trigger-once-while-true","objectClass":"System","sid":937652216261739}],"actions":[{"id":"wait","objectClass":"System","sid":757872641609897,"parameters":{"seconds":"8"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":782762993105335,"parameters":{"instance-variable":"wes","value":"2"}}],"sid":244130433166567},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":572477326317804,"parameters":{"instance-variable":"wes","comparison":0,"value":"2"}},{"id":"trigger-once-while-true","objectClass":"System","sid":205848945234549}],"actions":[{"id":"set-instvar-value","objectClass":"Спрайт7","sid":329339627492119,"parameters":{"instance-variable":"s1","value":"2"}},{"id":"wait","objectClass":"System","sid":661552567986512,"parameters":{"seconds":"6"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":249617424364144,"parameters":{"instance-variable":"s1","value":"0"}},{"id":"play","objectClass":"Аудио","sid":585801698905623,"parameters":{"audio-file":"lol","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"wait","objectClass":"System","sid":720102722289827,"parameters":{"seconds":"6"}},{"id":"set-ignoring-input","objectClass":"Спрайт7","sid":221700405523688,"behaviorType":"8Направлений","parameters":{"input":"stop-ignoring"}},{"id":"create-object","objectClass":"System","sid":247720910029284,"parameters":{"object-to-create":"v_l","layer":"\"m1\"","x":"Спрайт20.X-300","y":"Спрайт20.Y"}},{"id":"create-object","objectClass":"System","sid":950165251962973,"parameters":{"object-to-create":"v_r","layer":"\"m1\"","x":"Спрайт20.X+300","y":"Спрайт20.Y"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":578746896876324,"parameters":{"instance-variable":"s1","value":"0"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":237039487369430,"parameters":{"instance-variable":"wes","value":"3"}}],"sid":212923966272025},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":723948205105408,"parameters":{"instance-variable":"wes","comparison":0,"value":"2"}},{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":190024540705688,"parameters":{"instance-variable":"s1","comparison":0,"value":"2"}},{"id":"every-x-seconds","objectClass":"System","sid":269623216083142,"parameters":{"interval-seconds":"0.020"}}],"actions":[{"id":"set-enabled","objectClass":"Спрайт7","sid":857473449433225,"behaviorType":"ПрокрутитьДо","parameters":{"state":"disabled"}},{"id":"scroll-to-position","objectClass":"System","sid":246782698890196,"parameters":{"x":"scrollx","y":"scrolly-0.5"}}],"sid":366937312154782},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":991447772788007,"parameters":{"instance-variable":"wes","comparison":0,"value":"3"}},{"id":"every-x-seconds","objectClass":"System","sid":283773767576641,"parameters":{"interval-seconds":"0.001"}}],"actions":[{"id":"move-at-angle","objectClass":"Спрайт20","sid":721146644703037,"parameters":{"angle":"180","distance":"1"}}],"sid":689314429286381},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":168233643041775,"parameters":{"instance-variable":"wes","comparison":0,"value":"4"}},{"id":"every-x-seconds","objectClass":"System","sid":704815741996232,"parameters":{"interval-seconds":"0.001"}}],"actions":[{"id":"move-at-angle","objectClass":"Спрайт20","sid":817386476079349,"parameters":{"angle":"0","distance":"1"}}],"sid":967258914122202},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":518129707193612,"parameters":{"instance-variable":"wes","comparison":5,"value":"3"}},{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":418811360575772,"parameters":{"instance-variable":"wes","comparison":3,"value":"4"}},{"id":"every-x-seconds","objectClass":"System","sid":932707560686587,"parameters":{"interval-seconds":"2"}}],"actions":[{"id":"spawn-another-object","objectClass":"Спрайт20","sid":156951220147973,"parameters":{"object":"Спрайт21","layer":"\"m1\"","image-point":"1"}},{"id":"set-angle-of-motion","objectClass":"Спрайт21","sid":534090425813481,"behaviorType":"Пуля","parameters":{"angle":"90"}}],"sid":987933277310559},{"eventType":"block","conditions":[{"id":"on-collision-with-another-object","objectClass":"Спрайт20","sid":817525892482902,"parameters":{"object":"v_l"}}],"actions":[{"id":"set-instvar-value","objectClass":"Спрайт7","sid":768765874962400,"parameters":{"instance-variable":"wes","value":"4"}}],"sid":334573246519143},{"eventType":"block","conditions":[{"id":"on-collision-with-another-object","objectClass":"Спрайт20","sid":615728360770708,"parameters":{"object":"v_r"}}],"actions":[{"id":"set-instvar-value","objectClass":"Спрайт7","sid":966095604228037,"parameters":{"instance-variable":"wes","value":"3"}}],"sid":108663424373318},{"eventType":"block","conditions":[{"id":"on-collision-with-another-object","objectClass":"Спрайт21","sid":426808526055260,"parameters":{"object":"Спрайт7"}}],"actions":[{"id":"destroy","objectClass":"Спрайт21","sid":180670076554475},{"id":"play","objectClass":"Аудио","sid":764864074936623,"parameters":{"audio-file":"lol2","loop":"not-looping","volume":"0","tag-optional":"\"\""}}],"sid":284015253960539},{"eventType":"block","conditions":[{"id":"is-overlapping-at-offset","objectClass":"Спрайт22","sid":652328657025032,"parameters":{"object":"Спрайт20","offset-x":"0","offset-y":"64"}}],"actions":[{"id":"destroy","objectClass":"Спрайт22","sid":507269664131994},{"id":"play","objectClass":"Аудио","sid":704132663042137,"parameters":{"audio-file":"lol4","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"subtract-from-instvar","objectClass":"Спрайт20","sid":615873401644041,"parameters":{"instance-variable":"h1","value":"1"}}],"sid":367079837606938},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт20","sid":959219262268694,"parameters":{"instance-variable":"h1","comparison":0,"value":"0"}}],"actions":[{"id":"set-instvar-value","objectClass":"Спрайт7","sid":841485218099726,"parameters":{"instance-variable":"wes","value":"5"}}],"sid":198182577985726},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":950794841124277,"parameters":{"instance-variable":"wes","comparison":0,"value":"5"}},{"id":"trigger-once-while-true","objectClass":"System","sid":482203103775320}],"actions":[{"id":"set-ignoring-input","objectClass":"Спрайт7","sid":911703105978160,"behaviorType":"8Направлений","parameters":{"input":"start-ignoring"}},{"id":"set-animation","objectClass":"Спрайт20","sid":937646220899928,"parameters":{"animation":"\"f1\"","from":"beginning"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":159830698239492,"parameters":{"instance-variable":"s1","value":"1"}},{"id":"wait","objectClass":"System","sid":532920290235660,"parameters":{"seconds":"3"}},{"id":"play","objectClass":"Аудио","sid":476684220015462,"parameters":{"audio-file":"lol3","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"wait","objectClass":"System","sid":918685051838320,"parameters":{"seconds":"3.8"}},{"id":"set-animation","objectClass":"Спрайт20","sid":572722920918551,"parameters":{"animation":"\"f2\"","from":"beginning"}},{"id":"wait","objectClass":"System","sid":887400839187301,"parameters":{"seconds":"1.8"}},{"id":"set-animation","objectClass":"Спрайт20","sid":885944244930385,"parameters":{"animation":"\"f3\"","from":"beginning"}},{"id":"wait","objectClass":"System","sid":868565934344454,"parameters":{"seconds":"1.8"}},{"id":"set-animation","objectClass":"Спрайт20","sid":522966366565848,"parameters":{"animation":"\"f4\"","from":"beginning"}},{"id":"wait","objectClass":"System","sid":355636495281421,"parameters":{"seconds":"1.8"}},{"id":"set-animation","objectClass":"Спрайт20","sid":703367630027114,"parameters":{"animation":"\"f5\"","from":"beginning"}},{"id":"wait","objectClass":"System","sid":172155780457973,"parameters":{"seconds":"2"}},{"id":"set-animation","objectClass":"Спрайт20","sid":804771711469733,"parameters":{"animation":"\"f6\"","from":"beginning"}},{"id":"create-object","objectClass":"System","sid":748340027498094,"parameters":{"object-to-create":"Спрайт4","layer":"\"m0\"","x":"scrollx-320","y":"scrolly-240"}},{"id":"set-animation","objectClass":"Спрайт4","sid":403202267042169,"parameters":{"animation":"\"a2\"","from":"beginning"}},{"id":"set-fade-in-time","objectClass":"Спрайт4","sid":544557615594876,"behaviorType":"Исчезновение","parameters":{"fade-in-time":"5"}},{"id":"set-wait-time","objectClass":"Спрайт4","sid":459332261626309,"behaviorType":"Исчезновение","parameters":{"wait-time":"5"}},{"id":"set-fade-out-time","objectClass":"Спрайт4","sid":725342103035158,"behaviorType":"Исчезновение","parameters":{"fade-out-time":"5"}},{"id":"restart-fade","objectClass":"Спрайт4","sid":675982098122179,"behaviorType":"Исчезновение"},{"id":"wait","objectClass":"System","sid":988463508689797,"parameters":{"seconds":"8"}},{"id":"stop-all","objectClass":"Аудио","sid":528845014386317},{"id":"destroy","objectClass":"Спрайт20","sid":479662612993565},{"id":"wait","objectClass":"System","sid":127299792806224,"parameters":{"seconds":"8"}},{"id":"play","objectClass":"Аудио","sid":760178109642771,"parameters":{"audio-file":"smb_world_clear","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"wait","objectClass":"System","sid":198000368271807,"parameters":{"seconds":"2"}},{"id":"set-animation","objectClass":"Спрайт7","sid":723351169070561,"parameters":{"animation":"\"s4\"","from":"beginning"}},{"id":"wait","objectClass":"System","sid":887314008102657,"parameters":{"seconds":"2"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":581501184682043,"parameters":{"instance-variable":"s1","value":"20"}},{"id":"wait","objectClass":"System","sid":269571831398956,"parameters":{"seconds":"2"}},{"id":"create-object","objectClass":"System","sid":904989276445171,"parameters":{"object-to-create":"Спрайт4","layer":"\"m0\"","x":"scrollx-320","y":"scrolly-240"}},{"id":"set-animation","objectClass":"Спрайт4","sid":714465020059804,"parameters":{"animation":"\"a1\"","from":"beginning"}},{"id":"set-fade-in-time","objectClass":"Спрайт4","sid":747694436066846,"behaviorType":"Исчезновение","parameters":{"fade-in-time":"5"}},{"id":"set-wait-time","objectClass":"Спрайт4","sid":278591660248881,"behaviorType":"Исчезновение","parameters":{"wait-time":"5"}},{"id":"set-fade-out-time","objectClass":"Спрайт4","sid":879376013618963,"behaviorType":"Исчезновение","parameters":{"fade-out-time":"0"}},{"id":"restart-fade","objectClass":"Спрайт4","sid":304727620129758,"behaviorType":"Исчезновение"},{"id":"wait","objectClass":"System","sid":443464398424731,"parameters":{"seconds":"8"}},{"id":"go-to-layout","objectClass":"System","sid":812946509064766,"parameters":{"layout":"map"}}],"sid":239726835556508},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":669061731978013,"parameters":{"instance-variable":"s1","comparison":0,"value":"20"}},{"id":"every-x-seconds","objectClass":"System","sid":327631649560730,"parameters":{"interval-seconds":"0.001"}}],"actions":[{"id":"move-at-angle","objectClass":"Спрайт7","sid":171899590926455,"parameters":{"angle":"270","distance":"6"}}],"sid":164152209292593}],"sid":227532886542034}
+{
+	"name": "ssss",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 587601732743516,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "repeat",
+					"objectClass": "System",
+					"sid": 852702503634642,
+					"parameters": {
+						"count": "200"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 368122469034845
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 678402763262121,
+					"parameters": {
+						"interval-seconds": "0.020"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт20",
+					"sid": 112984647358622,
+					"parameters": {
+						"angle": "90",
+						"distance": "1"
+					}
+				}
+			],
+			"sid": 622795505268595
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 398611049461937,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "repeat",
+					"objectClass": "System",
+					"sid": 184883773991339,
+					"parameters": {
+						"count": "1"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 937652216261739
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 757872641609897,
+					"parameters": {
+						"seconds": "8"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 782762993105335,
+					"parameters": {
+						"instance-variable": "wes",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 244130433166567
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 572477326317804,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 0,
+						"value": "2"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 205848945234549
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 329339627492119,
+					"parameters": {
+						"instance-variable": "s1",
+						"value": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 661552567986512,
+					"parameters": {
+						"seconds": "6"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 249617424364144,
+					"parameters": {
+						"instance-variable": "s1",
+						"value": "0"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 585801698905623,
+					"parameters": {
+						"audio-file": "lol",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 720102722289827,
+					"parameters": {
+						"seconds": "6"
+					}
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "Спрайт7",
+					"sid": 221700405523688,
+					"behaviorType": "8Направлений",
+					"parameters": {
+						"input": "stop-ignoring"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 247720910029284,
+					"parameters": {
+						"object-to-create": "v_l",
+						"layer": "\"m1\"",
+						"x": "Спрайт20.X-300",
+						"y": "Спрайт20.Y"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 950165251962973,
+					"parameters": {
+						"object-to-create": "v_r",
+						"layer": "\"m1\"",
+						"x": "Спрайт20.X+300",
+						"y": "Спрайт20.Y"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 578746896876324,
+					"parameters": {
+						"instance-variable": "s1",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 237039487369430,
+					"parameters": {
+						"instance-variable": "wes",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 212923966272025
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 723948205105408,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 0,
+						"value": "2"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 190024540705688,
+					"parameters": {
+						"instance-variable": "s1",
+						"comparison": 0,
+						"value": "2"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 269623216083142,
+					"parameters": {
+						"interval-seconds": "0.020"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Спрайт7",
+					"sid": 857473449433225,
+					"behaviorType": "ПрокрутитьДо",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "scroll-to-position",
+					"objectClass": "System",
+					"sid": 246782698890196,
+					"parameters": {
+						"x": "scrollx",
+						"y": "scrolly-0.5"
+					}
+				}
+			],
+			"sid": 366937312154782
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 991447772788007,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 0,
+						"value": "3"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 283773767576641,
+					"parameters": {
+						"interval-seconds": "0.001"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт20",
+					"sid": 721146644703037,
+					"parameters": {
+						"angle": "180",
+						"distance": "1"
+					}
+				}
+			],
+			"sid": 689314429286381
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 168233643041775,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 0,
+						"value": "4"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 704815741996232,
+					"parameters": {
+						"interval-seconds": "0.001"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт20",
+					"sid": 817386476079349,
+					"parameters": {
+						"angle": "0",
+						"distance": "1"
+					}
+				}
+			],
+			"sid": 967258914122202
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 518129707193612,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 5,
+						"value": "3"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 418811360575772,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 3,
+						"value": "4"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 932707560686587,
+					"parameters": {
+						"interval-seconds": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Спрайт20",
+					"sid": 156951220147973,
+					"parameters": {
+						"object": "Спрайт21",
+						"layer": "\"m1\"",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Спрайт21",
+					"sid": 534090425813481,
+					"behaviorType": "Пуля",
+					"parameters": {
+						"angle": "90"
+					}
+				}
+			],
+			"sid": 987933277310559
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Спрайт20",
+					"sid": 817525892482902,
+					"parameters": {
+						"object": "v_l"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 768765874962400,
+					"parameters": {
+						"instance-variable": "wes",
+						"value": "4"
+					}
+				}
+			],
+			"sid": 334573246519143
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Спрайт20",
+					"sid": 615728360770708,
+					"parameters": {
+						"object": "v_r"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 966095604228037,
+					"parameters": {
+						"instance-variable": "wes",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 108663424373318
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Спрайт21",
+					"sid": 426808526055260,
+					"parameters": {
+						"object": "Спрайт7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Спрайт21",
+					"sid": 180670076554475
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 764864074936623,
+					"parameters": {
+						"audio-file": "lol2",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 284015253960539
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-at-offset",
+					"objectClass": "Спрайт22",
+					"sid": 652328657025032,
+					"parameters": {
+						"object": "Спрайт20",
+						"offset-x": "0",
+						"offset-y": "64"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Спрайт22",
+					"sid": 507269664131994
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 704132663042137,
+					"parameters": {
+						"audio-file": "lol4",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Спрайт20",
+					"sid": 615873401644041,
+					"parameters": {
+						"instance-variable": "h1",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 367079837606938
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт20",
+					"sid": 959219262268694,
+					"parameters": {
+						"instance-variable": "h1",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 841485218099726,
+					"parameters": {
+						"instance-variable": "wes",
+						"value": "5"
+					}
+				}
+			],
+			"sid": 198182577985726
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 950794841124277,
+					"parameters": {
+						"instance-variable": "wes",
+						"comparison": 0,
+						"value": "5"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 482203103775320
+				}
+			],
+			"actions": [
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "Спрайт7",
+					"sid": 911703105978160,
+					"behaviorType": "8Направлений",
+					"parameters": {
+						"input": "start-ignoring"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт20",
+					"sid": 937646220899928,
+					"parameters": {
+						"animation": "\"f1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 159830698239492,
+					"parameters": {
+						"instance-variable": "s1",
+						"value": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 532920290235660,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 476684220015462,
+					"parameters": {
+						"audio-file": "lol3",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 918685051838320,
+					"parameters": {
+						"seconds": "3.8"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт20",
+					"sid": 572722920918551,
+					"parameters": {
+						"animation": "\"f2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 887400839187301,
+					"parameters": {
+						"seconds": "1.8"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт20",
+					"sid": 885944244930385,
+					"parameters": {
+						"animation": "\"f3\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 868565934344454,
+					"parameters": {
+						"seconds": "1.8"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт20",
+					"sid": 522966366565848,
+					"parameters": {
+						"animation": "\"f4\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 355636495281421,
+					"parameters": {
+						"seconds": "1.8"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт20",
+					"sid": 703367630027114,
+					"parameters": {
+						"animation": "\"f5\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 172155780457973,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт20",
+					"sid": 804771711469733,
+					"parameters": {
+						"animation": "\"f6\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 748340027498094,
+					"parameters": {
+						"object-to-create": "Спрайт4",
+						"layer": "\"m0\"",
+						"x": "scrollx-320",
+						"y": "scrolly-240"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт4",
+					"sid": 403202267042169,
+					"parameters": {
+						"animation": "\"a2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-fade-in-time",
+					"objectClass": "Спрайт4",
+					"sid": 544557615594876,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-in-time": "5"
+					}
+				},
+				{
+					"id": "set-wait-time",
+					"objectClass": "Спрайт4",
+					"sid": 459332261626309,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"wait-time": "5"
+					}
+				},
+				{
+					"id": "set-fade-out-time",
+					"objectClass": "Спрайт4",
+					"sid": 725342103035158,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-out-time": "5"
+					}
+				},
+				{
+					"id": "restart-fade",
+					"objectClass": "Спрайт4",
+					"sid": 675982098122179,
+					"behaviorType": "Исчезновение"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 988463508689797,
+					"parameters": {
+						"seconds": "8"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 528845014386317
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Спрайт20",
+					"sid": 479662612993565
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 127299792806224,
+					"parameters": {
+						"seconds": "8"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 760178109642771,
+					"parameters": {
+						"audio-file": "smb_world_clear",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 198000368271807,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт7",
+					"sid": 723351169070561,
+					"parameters": {
+						"animation": "\"s4\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 887314008102657,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 581501184682043,
+					"parameters": {
+						"instance-variable": "s1",
+						"value": "20"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 269571831398956,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 904989276445171,
+					"parameters": {
+						"object-to-create": "Спрайт4",
+						"layer": "\"m0\"",
+						"x": "scrollx-320",
+						"y": "scrolly-240"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт4",
+					"sid": 714465020059804,
+					"parameters": {
+						"animation": "\"a1\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-fade-in-time",
+					"objectClass": "Спрайт4",
+					"sid": 747694436066846,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-in-time": "5"
+					}
+				},
+				{
+					"id": "set-wait-time",
+					"objectClass": "Спрайт4",
+					"sid": 278591660248881,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"wait-time": "5"
+					}
+				},
+				{
+					"id": "set-fade-out-time",
+					"objectClass": "Спрайт4",
+					"sid": 879376013618963,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-out-time": "0"
+					}
+				},
+				{
+					"id": "restart-fade",
+					"objectClass": "Спрайт4",
+					"sid": 304727620129758,
+					"behaviorType": "Исчезновение"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 443464398424731,
+					"parameters": {
+						"seconds": "8"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 812946509064766,
+					"parameters": {
+						"layout": "map"
+					}
+				}
+			],
+			"sid": 239726835556508
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 669061731978013,
+					"parameters": {
+						"instance-variable": "s1",
+						"comparison": 0,
+						"value": "20"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 327631649560730,
+					"parameters": {
+						"interval-seconds": "0.001"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "Спрайт7",
+					"sid": 171899590926455,
+					"parameters": {
+						"angle": "270",
+						"distance": "6"
+					}
+				}
+			],
+			"sid": 164152209292593
+		}
+	],
+	"sid": 227532886542034
+}

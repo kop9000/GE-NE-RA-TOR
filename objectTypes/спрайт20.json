@@ -1,1 +1,314 @@
-{"name":"Спрайт20","plugin-id":"Sprite","sid":642814887735011,"isGlobal":false,"instanceVariables":[{"name":"h1","type":"number","desc":"","sid":721407792939659}],"behaviorTypes":[],"effectTypes":[],"animations":{"items":[{"frames":[{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":63,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1},{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":62,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1}],"sid":491949302732443,"name":"Animation 1","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":7},{"frames":[{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":75,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1}],"sid":468725642758456,"name":"f1","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":7},{"frames":[{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":101,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1}],"sid":461911630137680,"name":"f2","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":7},{"frames":[{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":102,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1}],"sid":757949096581285,"name":"f3","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":7},{"frames":[{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":103,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1}],"sid":532182748614543,"name":"f4","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":7},{"frames":[{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":104,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1}],"sid":174768689294621,"name":"f5","isLooping":true,"isPingPong":true,"repeatCount":1,"repeatTo":0,"speed":7},{"frames":[{"width":250,"height":250,"originX":0.5,"originY":0.5,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":86,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1},{"width":250,"height":250,"originX":0.704,"originY":0.372,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":90,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1},{"width":250,"height":250,"originX":0.364,"originY":0.448,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":89,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1},{"width":250,"height":250,"originX":0.344,"originY":0.308,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":88,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1},{"width":250,"height":250,"originX":0.628,"originY":0.372,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":87,"imagePoints":[{"name":"Точка изображения 1","x":0.516,"y":0.732}],"duration":1}],"sid":369485120330947,"name":"f6","isLooping":true,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":7}],"subfolders":[]}}
+{
+	"name": "Спрайт20",
+	"plugin-id": "Sprite",
+	"sid": 642814887735011,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "h1",
+			"type": "number",
+			"desc": "",
+			"sid": 721407792939659
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 63,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 62,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 491949302732443,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 75,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 468725642758456,
+				"name": "f1",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 101,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 461911630137680,
+				"name": "f2",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 102,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 757949096581285,
+				"name": "f3",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 103,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 532182748614543,
+				"name": "f4",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 104,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 174768689294621,
+				"name": "f5",
+				"isLooping": true,
+				"isPingPong": true,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 86,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.704,
+						"originY": 0.372,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 90,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.364,
+						"originY": 0.448,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 89,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.344,
+						"originY": 0.308,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 88,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.628,
+						"originY": 0.372,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 87,
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.516,
+								"y": 0.732
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 369485120330947,
+				"name": "f6",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			}
+		],
+		"subfolders": []
+	}
+}

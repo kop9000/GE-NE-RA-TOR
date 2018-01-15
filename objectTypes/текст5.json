@@ -1,1 +1,15 @@
-{"name":"Текст5","plugin-id":"Text","sid":866706545989141,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[{"behaviorId":"Flash","name":"Мигание","sid":180491141598633}],"effectTypes":[]}
+{
+	"name": "Текст5",
+	"plugin-id": "Text",
+	"sid": 866706545989141,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Flash",
+			"name": "Мигание",
+			"sid": 180491141598633
+		}
+	],
+	"effectTypes": []
+}

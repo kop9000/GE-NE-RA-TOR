@@ -1,1 +1,147 @@
-{"name":"g_r1","events":[{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":151475028540810,"parameters":{"instance-variable":"r_g1","comparison":0,"value":"1"}},{"id":"every-x-seconds","objectClass":"System","sid":242538414434489,"parameters":{"interval-seconds":"1"}}],"actions":[{"id":"spawn-another-object","objectClass":"g_r1","sid":791624497552499,"parameters":{"object":"r","layer":"\"m1\"","image-point":"0"}},{"id":"set-position","objectClass":"g_r1","sid":168737482426858,"parameters":{"x":"g_r1.X","y":"g_r1.Y-128"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":520966970454276,"parameters":{"instance-variable":"r_g1","value":"floor(random(0, 3))"}}],"sid":326351448765778},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт7","sid":431569850920010,"parameters":{"instance-variable":"r_g1","comparison":0,"value":"2"}},{"id":"every-x-seconds","objectClass":"System","sid":783287800107313,"parameters":{"interval-seconds":"1"}}],"actions":[{"id":"set-position","objectClass":"g_r1","sid":397551962094378,"parameters":{"x":"g_r1.X","y":"g_r1.Y-128"}},{"id":"spawn-another-object","objectClass":"g_r1","sid":170600764705517,"parameters":{"object":"r","layer":"\"m1\"","image-point":"0"}},{"id":"spawn-another-object","objectClass":"g_r1","sid":580699178275033,"parameters":{"object":"g_r2","layer":"0","image-point":"0"}},{"id":"set-position","objectClass":"g_r2","sid":352334545109523,"parameters":{"x":"g_r1.X+128","y":"g_r1.Y"}},{"id":"destroy","objectClass":"g_r1","sid":731475476042608},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":824958968492563,"parameters":{"instance-variable":"r_g2","value":"floor(random(0, 3))"}},{"id":"set-instvar-value","objectClass":"Спрайт7","sid":740252361554948,"parameters":{"instance-variable":"r_g1","value":"0"}}],"sid":432267407684250}],"sid":138918614461815}
+{
+	"name": "g_r1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 151475028540810,
+					"parameters": {
+						"instance-variable": "r_g1",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 242538414434489,
+					"parameters": {
+						"interval-seconds": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "g_r1",
+					"sid": 791624497552499,
+					"parameters": {
+						"object": "r",
+						"layer": "\"m1\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "g_r1",
+					"sid": 168737482426858,
+					"parameters": {
+						"x": "g_r1.X",
+						"y": "g_r1.Y-128"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 520966970454276,
+					"parameters": {
+						"instance-variable": "r_g1",
+						"value": "floor(random(0, 3))"
+					}
+				}
+			],
+			"sid": 326351448765778
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 431569850920010,
+					"parameters": {
+						"instance-variable": "r_g1",
+						"comparison": 0,
+						"value": "2"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 783287800107313,
+					"parameters": {
+						"interval-seconds": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "g_r1",
+					"sid": 397551962094378,
+					"parameters": {
+						"x": "g_r1.X",
+						"y": "g_r1.Y-128"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "g_r1",
+					"sid": 170600764705517,
+					"parameters": {
+						"object": "r",
+						"layer": "\"m1\"",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "g_r1",
+					"sid": 580699178275033,
+					"parameters": {
+						"object": "g_r2",
+						"layer": "0",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "g_r2",
+					"sid": 352334545109523,
+					"parameters": {
+						"x": "g_r1.X+128",
+						"y": "g_r1.Y"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "g_r1",
+					"sid": 731475476042608
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 824958968492563,
+					"parameters": {
+						"instance-variable": "r_g2",
+						"value": "floor(random(0, 3))"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 740252361554948,
+					"parameters": {
+						"instance-variable": "r_g1",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 432267407684250
+		}
+	],
+	"sid": 138918614461815
+}

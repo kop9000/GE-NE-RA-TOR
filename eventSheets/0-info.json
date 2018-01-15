@@ -1,1 +1,171 @@
-{"name":"0-info","events":[{"eventType":"block","conditions":[{"id":"on-start-of-layout","objectClass":"System","sid":940366573181041}],"actions":[{"id":"wait","objectClass":"System","sid":797699919744028,"parameters":{"seconds":"2"}},{"id":"set-visible","objectClass":"Текст9","sid":143480860349403,"parameters":{"visibility":"visible"}},{"id":"play","objectClass":"Аудио","sid":170102162942006,"parameters":{"audio-file":"Pickup_Coin","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"set-fade-in-time","objectClass":"Текст9","sid":280451356135721,"behaviorType":"ПоявлениеИИсчезновение","parameters":{"fade-in-time":"0.4"}},{"id":"set-wait-time","objectClass":"Текст9","sid":702333655663000,"behaviorType":"ПоявлениеИИсчезновение","parameters":{"wait-time":"0"}},{"id":"set-fade-out-time","objectClass":"Текст9","sid":472419306782812,"behaviorType":"ПоявлениеИИсчезновение","parameters":{"fade-out-time":"0"}},{"id":"restart-fade","objectClass":"Текст9","sid":644165603915226,"behaviorType":"ПоявлениеИИсчезновение"},{"id":"wait-for-signal","objectClass":"System","sid":549948212213129,"parameters":{"tag":"\"go\""}},{"id":"play","objectClass":"Аудио","sid":831867881115707,"parameters":{"audio-file":"Pickup_Coin","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"set-fade-in-time","objectClass":"Текст9","sid":192930184338541,"behaviorType":"ПоявлениеИИсчезновение","parameters":{"fade-in-time":"0"}},{"id":"set-wait-time","objectClass":"Текст9","sid":802356828834166,"behaviorType":"ПоявлениеИИсчезновение","parameters":{"wait-time":"0"}},{"id":"set-fade-out-time","objectClass":"Текст9","sid":160921735317536,"behaviorType":"ПоявлениеИИсчезновение","parameters":{"fade-out-time":"0.4"}},{"id":"restart-fade","objectClass":"Текст9","sid":123687311948328,"behaviorType":"ПоявлениеИИсчезновение"},{"id":"wait","objectClass":"System","sid":110352864453618,"parameters":{"seconds":"3"}},{"id":"go-to-layout","objectClass":"System","sid":282971905625380,"parameters":{"layout":"main"}}],"sid":856983070031134},{"eventType":"block","conditions":[{"id":"on-key-pressed","objectClass":"Клавиатура","sid":692332657399304,"parameters":{"key":32}}],"actions":[{"id":"signal","objectClass":"System","sid":655728722344652,"parameters":{"tag":"\"go\""}}],"sid":185847481417626}],"sid":873091845545810}
+{
+	"name": "0-info",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 940366573181041
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 797699919744028,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Текст9",
+					"sid": 143480860349403,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 170102162942006,
+					"parameters": {
+						"audio-file": "Pickup_Coin",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-fade-in-time",
+					"objectClass": "Текст9",
+					"sid": 280451356135721,
+					"behaviorType": "ПоявлениеИИсчезновение",
+					"parameters": {
+						"fade-in-time": "0.4"
+					}
+				},
+				{
+					"id": "set-wait-time",
+					"objectClass": "Текст9",
+					"sid": 702333655663000,
+					"behaviorType": "ПоявлениеИИсчезновение",
+					"parameters": {
+						"wait-time": "0"
+					}
+				},
+				{
+					"id": "set-fade-out-time",
+					"objectClass": "Текст9",
+					"sid": 472419306782812,
+					"behaviorType": "ПоявлениеИИсчезновение",
+					"parameters": {
+						"fade-out-time": "0"
+					}
+				},
+				{
+					"id": "restart-fade",
+					"objectClass": "Текст9",
+					"sid": 644165603915226,
+					"behaviorType": "ПоявлениеИИсчезновение"
+				},
+				{
+					"id": "wait-for-signal",
+					"objectClass": "System",
+					"sid": 549948212213129,
+					"parameters": {
+						"tag": "\"go\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 831867881115707,
+					"parameters": {
+						"audio-file": "Pickup_Coin",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-fade-in-time",
+					"objectClass": "Текст9",
+					"sid": 192930184338541,
+					"behaviorType": "ПоявлениеИИсчезновение",
+					"parameters": {
+						"fade-in-time": "0"
+					}
+				},
+				{
+					"id": "set-wait-time",
+					"objectClass": "Текст9",
+					"sid": 802356828834166,
+					"behaviorType": "ПоявлениеИИсчезновение",
+					"parameters": {
+						"wait-time": "0"
+					}
+				},
+				{
+					"id": "set-fade-out-time",
+					"objectClass": "Текст9",
+					"sid": 160921735317536,
+					"behaviorType": "ПоявлениеИИсчезновение",
+					"parameters": {
+						"fade-out-time": "0.4"
+					}
+				},
+				{
+					"id": "restart-fade",
+					"objectClass": "Текст9",
+					"sid": 123687311948328,
+					"behaviorType": "ПоявлениеИИсчезновение"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 110352864453618,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 282971905625380,
+					"parameters": {
+						"layout": "main"
+					}
+				}
+			],
+			"sid": 856983070031134
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 692332657399304,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "signal",
+					"objectClass": "System",
+					"sid": 655728722344652,
+					"parameters": {
+						"tag": "\"go\""
+					}
+				}
+			],
+			"sid": 185847481417626
+		}
+	],
+	"sid": 873091845545810
+}

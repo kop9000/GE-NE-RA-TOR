@@ -1,1 +1,10 @@
-{"name":"Клавиатура","plugin-id":"Keyboard","sid":613807004209793,"singleglobal-inst":{"type":"Клавиатура","properties":{},"uid":3}}
+{
+	"name": "Клавиатура",
+	"plugin-id": "Keyboard",
+	"sid": 613807004209793,
+	"singleglobal-inst": {
+		"type": "Клавиатура",
+		"properties": {},
+		"uid": 3
+	}
+}

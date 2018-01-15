@@ -1,1 +1,55 @@
-{"name":"coin","events":[{"eventType":"block","conditions":[{"id":"on-collision-with-another-object","objectClass":"Спрайт2","sid":479191683413252,"parameters":{"object":"coin"}}],"actions":[{"id":"play","objectClass":"Аудио","sid":464837982726780,"parameters":{"audio-file":"smb_coin","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"add-to-instvar","objectClass":"Спрайт2","sid":223843992472427,"parameters":{"instance-variable":"coin","value":"1"}},{"id":"destroy","objectClass":"coin","sid":168011254917884},{"id":"set-text","objectClass":"Текст8","sid":681859973995239,"parameters":{"text":"\"Монеты \"&\nСпрайт2.coin"}}],"sid":222700279749047}],"sid":788532256376254}
+{
+	"name": "coin",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Спрайт2",
+					"sid": 479191683413252,
+					"parameters": {
+						"object": "coin"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 464837982726780,
+					"parameters": {
+						"audio-file": "smb_coin",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Спрайт2",
+					"sid": 223843992472427,
+					"parameters": {
+						"instance-variable": "coin",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "coin",
+					"sid": 168011254917884
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Текст8",
+					"sid": 681859973995239,
+					"parameters": {
+						"text": "\"Монеты \"&\nСпрайт2.coin"
+					}
+				}
+			],
+			"sid": 222700279749047
+		}
+	],
+	"sid": 788532256376254
+}

@@ -1,1 +1,137 @@
-{"name":"04_m_map","events":[{"eventType":"include","includeSheet":"door"},{"eventType":"include","includeSheet":"mario_keyn"},{"eventType":"include","includeSheet":"bloks"},{"eventType":"include","includeSheet":"bloks_bonus"},{"eventType":"include","includeSheet":"mario-gen"},{"eventType":"include","includeSheet":"end"},{"eventType":"include","includeSheet":"coin"},{"eventType":"block","conditions":[{"id":"trigger-once-while-true","objectClass":"System","sid":956013719849845},{"id":"for","objectClass":"System","sid":821986406094983,"parameters":{"name":"\"\"","start-index":"1","end-index":"1"}}],"actions":[{"id":"set-instvar-value","objectClass":"Спрайт2","sid":885802330059249,"parameters":{"instance-variable":"gen","value":"1"}}],"sid":201404024896837},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт2","sid":327209088469552,"parameters":{"instance-variable":"a","comparison":0,"value":"0"}}],"actions":[{"id":"set-enabled","objectClass":"Спрайт2","sid":400477212470971,"behaviorType":"Платформа","parameters":{"state":"disabled"}}],"sid":514209067220261},{"eventType":"block","conditions":[{"id":"compare-instance-variable","objectClass":"Спрайт2","sid":195822231641352,"parameters":{"instance-variable":"a","comparison":0,"value":"1"}}],"actions":[{"id":"set-enabled","objectClass":"Спрайт2","sid":365279529312096,"behaviorType":"Платформа","parameters":{"state":"enabled"}}],"sid":984106871640570},{"eventType":"block","conditions":[{"id":"is-overlapping-at-offset","objectClass":"Спрайт2","sid":755245497921502,"parameters":{"object":"Спрайт6","offset-x":"0","offset-y":"-1"}}],"actions":[],"sid":530068072399526}],"sid":273533416451620}
+{
+	"name": "04_m_map",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "door"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "mario_keyn"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "bloks"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "bloks_bonus"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "mario-gen"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "end"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "coin"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 956013719849845
+				},
+				{
+					"id": "for",
+					"objectClass": "System",
+					"sid": 821986406094983,
+					"parameters": {
+						"name": "\"\"",
+						"start-index": "1",
+						"end-index": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт2",
+					"sid": 885802330059249,
+					"parameters": {
+						"instance-variable": "gen",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 201404024896837
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт2",
+					"sid": 327209088469552,
+					"parameters": {
+						"instance-variable": "a",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Спрайт2",
+					"sid": 400477212470971,
+					"behaviorType": "Платформа",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 514209067220261
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт2",
+					"sid": 195822231641352,
+					"parameters": {
+						"instance-variable": "a",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Спрайт2",
+					"sid": 365279529312096,
+					"behaviorType": "Платформа",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 984106871640570
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-at-offset",
+					"objectClass": "Спрайт2",
+					"sid": 755245497921502,
+					"parameters": {
+						"object": "Спрайт6",
+						"offset-x": "0",
+						"offset-y": "-1"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 530068072399526
+		}
+	],
+	"sid": 273533416451620
+}

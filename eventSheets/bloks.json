@@ -1,1 +1,312 @@
-{"name":"bloks","events":[{"eventType":"block","conditions":[{"id":"is-overlapping-at-offset","objectClass":"Спрайт2","sid":801490767137927,"parameters":{"object":"bloks","offset-x":"0","offset-y":"-1"}},{"id":"trigger-once-while-true","objectClass":"System","sid":952246840747953}],"actions":[{"id":"stop","objectClass":"Аудио","sid":170629791477064,"parameters":{"tag":"\"jimp\""}},{"id":"play","objectClass":"Аудио","sid":208326099260880,"parameters":{"audio-file":"smb_bump","loop":"not-looping","volume":"0","tag-optional":"\"\""}},{"id":"move-at-angle","objectClass":"bloks","sid":205586618597637,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":891575015470906,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":286423474624739,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":965970189537887,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":696027833642016,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":330082180614355,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":680233790230673,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":263819870114184,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":568663317947959,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":765118560437282,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":869401537447017,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":275713374508870,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":304814995836195,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":955597793153617,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":474153085332180,"parameters":{"angle":"270","distance":"2"}},{"id":"wait","objectClass":"System","sid":398634281928539,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":553901068804410,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":829373208546776,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":700976829533311,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":858956723078883,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":785394558286720,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":346727463606764,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":146666453125725,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":471000698049461,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":639262019877664,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":330364582647383,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":999676759253813,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":142475906988742,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":418256991390398,"parameters":{"angle":"90","distance":"2"}},{"id":"wait","objectClass":"System","sid":490372090867365,"parameters":{"seconds":"0.005"}},{"id":"move-at-angle","objectClass":"bloks","sid":303663489662522,"parameters":{"angle":"90","distance":"2"}}],"sid":827114182303755}],"sid":232256650461204}
+{
+	"name": "bloks",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-at-offset",
+					"objectClass": "Спрайт2",
+					"sid": 801490767137927,
+					"parameters": {
+						"object": "bloks",
+						"offset-x": "0",
+						"offset-y": "-1"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 952246840747953
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Аудио",
+					"sid": 170629791477064,
+					"parameters": {
+						"tag": "\"jimp\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 208326099260880,
+					"parameters": {
+						"audio-file": "smb_bump",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 205586618597637,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 891575015470906,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 286423474624739,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 965970189537887,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 696027833642016,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 330082180614355,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 680233790230673,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 263819870114184,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 568663317947959,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 765118560437282,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 869401537447017,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 275713374508870,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 304814995836195,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 955597793153617,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 474153085332180,
+					"parameters": {
+						"angle": "270",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 398634281928539,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 553901068804410,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 829373208546776,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 700976829533311,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 858956723078883,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 785394558286720,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 346727463606764,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 146666453125725,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 471000698049461,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 639262019877664,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 330364582647383,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 999676759253813,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 142475906988742,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 418256991390398,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 490372090867365,
+					"parameters": {
+						"seconds": "0.005"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "bloks",
+					"sid": 303663489662522,
+					"parameters": {
+						"angle": "90",
+						"distance": "2"
+					}
+				}
+			],
+			"sid": 827114182303755
+		}
+	],
+	"sid": 232256650461204
+}

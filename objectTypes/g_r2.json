@@ -1,1 +1,42 @@
-{"name":"g_r2","plugin-id":"Sprite","sid":519675185286988,"isGlobal":false,"instanceVariables":[],"behaviorTypes":[{"behaviorId":"LOS","name":"ПолеЗрения","sid":759293202880184}],"effectTypes":[],"animations":{"items":[{"frames":[{"width":32,"height":32,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":60,"duration":1}],"sid":824661644510252,"name":"Animation 1","isLooping":false,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":5}],"subfolders":[]}}
+{
+	"name": "g_r2",
+	"plugin-id": "Sprite",
+	"sid": 519675185286988,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "LOS",
+			"name": "ПолеЗрения",
+			"sid": 759293202880184
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 60,
+						"duration": 1
+					}
+				],
+				"sid": 824661644510252,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

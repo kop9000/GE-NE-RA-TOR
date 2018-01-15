@@ -1,1 +1,76 @@
-{"name":"Спрайт33","plugin-id":"Sprite","sid":235390906565460,"isGlobal":false,"instanceVariables":[{"name":"ls","type":"number","desc":"","sid":642432669623283}],"behaviorTypes":[{"behaviorId":"EightDir","name":"8Направлений","sid":673892876486038}],"effectTypes":[],"animations":{"items":[{"frames":[{"width":66,"height":66,"originX":0,"originY":0,"originalSource":"","exportFormat":"png","exportQuality":0.8,"imageSpriteId":78,"collisionPoly":{"points":[0.058823529411764705,0.014925373134328358,0.5,0.014925373134328358,0.5882352941176471,0.08955223880597014,0.5882352941176471,0.5,0.5882352941176471,0.8955223880597015,0.5,0.9701492537313433,0.11764705882352941,0.9552238805970149,0.17647058823529413,0.5]},"imagePoints":[{"name":"Точка изображения 1","x":0.5,"y":0.030303030303030304}],"duration":1}],"sid":382923499295297,"name":"p1","isLooping":true,"isPingPong":false,"repeatCount":1,"repeatTo":0,"speed":5}],"subfolders":[]}}
+{
+	"name": "Спрайт33",
+	"plugin-id": "Sprite",
+	"sid": 235390906565460,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ls",
+			"type": "number",
+			"desc": "",
+			"sid": 642432669623283
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Направлений",
+			"sid": 673892876486038
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 66,
+						"height": 66,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 78,
+						"collisionPoly": {
+							"points": [
+								0.058823529411764705,
+								0.014925373134328358,
+								0.5,
+								0.014925373134328358,
+								0.5882352941176471,
+								0.08955223880597014,
+								0.5882352941176471,
+								0.5,
+								0.5882352941176471,
+								0.8955223880597015,
+								0.5,
+								0.9701492537313433,
+								0.11764705882352941,
+								0.9552238805970149,
+								0.17647058823529413,
+								0.5
+							]
+						},
+						"imagePoints": [
+							{
+								"name": "Точка изображения 1",
+								"x": 0.5,
+								"y": 0.030303030303030304
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 382923499295297,
+				"name": "p1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
