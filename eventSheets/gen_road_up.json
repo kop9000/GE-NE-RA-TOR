@@ -530,7 +530,179 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 746819802885999,
+							"sid": 899181031888618,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 733705800031796
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 534684609674207,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "103"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 579015327763663,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "3"
+							}
+						},
+						{
+							"id": "repeat",
+							"objectClass": "System",
+							"sid": 789535521121688,
+							"parameters": {
+								"count": "floor(random(1, 5))"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 302011937546983,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 842297514795662,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 179515344728160,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "4"
+							}
+						}
+					],
+					"sid": 812851008954387
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 935355610584811,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "103"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 716124633167002,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 339612033406749,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 156752548023547,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 705653696467099,
+							"parameters": {
+								"angle": "180",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 467639105867016,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 226513008654919,
+							"parameters": {
+								"object": "z5",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 914552518427387,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 334341774213677,
+							"parameters": {
+								"angle": "0",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 676518489601399,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 159762681540767,
 							"parameters": {
 								"instance-variable": "s1",
 								"value": "200"
@@ -539,14 +711,14 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 371598766361936,
+							"sid": 334145155288946,
 							"parameters": {
 								"instance-variable": "gen",
 								"value": "0"
 							}
 						}
 					],
-					"sid": 733705800031796
+					"sid": 598957508932134
 				}
 			],
 			"sid": 897159124914768
@@ -805,7 +977,179 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 107826048328581,
+							"sid": 522455291458564,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 755770201572403
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 803533203646823,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "104"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 463884244010156,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "3"
+							}
+						},
+						{
+							"id": "repeat",
+							"objectClass": "System",
+							"sid": 804795123228820,
+							"parameters": {
+								"count": "floor(random(1, 5))"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 322501897651321,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 490657261188681,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 187169122225209,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "4"
+							}
+						}
+					],
+					"sid": 677904710545247
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 763990969297534,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "104"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 320557659912148,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 336169068379225,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 797482278334282,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 386431870098404,
+							"parameters": {
+								"angle": "180",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 259819705011250,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 464510722212062,
+							"parameters": {
+								"object": "z4",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 307654239431653,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 760906624290137,
+							"parameters": {
+								"angle": "0",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 262608298745001,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 135723611165900,
 							"parameters": {
 								"instance-variable": "s1",
 								"value": "200"
@@ -814,14 +1158,14 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 152930405606586,
+							"sid": 626833030614500,
 							"parameters": {
 								"instance-variable": "gen",
 								"value": "0"
 							}
 						}
 					],
-					"sid": 755770201572403
+					"sid": 151462376138757
 				}
 			],
 			"sid": 196620053908480
@@ -1244,7 +1588,179 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 557426354225195,
+							"sid": 767870956573765,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "5"
+							}
+						}
+					],
+					"sid": 606668748370643
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 712216814868557,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "105"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 950429475213224,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "5"
+							}
+						},
+						{
+							"id": "repeat",
+							"objectClass": "System",
+							"sid": 283390494157412,
+							"parameters": {
+								"count": "floor(random(1, 5))"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 531803022230218,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 417498651783860,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 640440109393240,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "6"
+							}
+						}
+					],
+					"sid": 496951665421789
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 340348279891384,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "105"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 167026139325858,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 864579645284912,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 325391512804553,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 510677411365111,
+							"parameters": {
+								"angle": "180",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 192881052858012,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 587229373600633,
+							"parameters": {
+								"object": "z6",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 291320336112510,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 283938231353833,
+							"parameters": {
+								"angle": "0",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 335368309501925,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 818155050679342,
 							"parameters": {
 								"instance-variable": "s1",
 								"value": "200"
@@ -1253,14 +1769,14 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 657028763660061,
+							"sid": 529921783478348,
 							"parameters": {
 								"instance-variable": "gen",
 								"value": "0"
 							}
 						}
 					],
-					"sid": 606668748370643
+					"sid": 980946521322794
 				}
 			],
 			"sid": 533357495249287
@@ -1683,7 +2199,179 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 358910907354617,
+							"sid": 726863854375304,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "5"
+							}
+						}
+					],
+					"sid": 416823004173342
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 263615779758313,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "106"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 839076210777626,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "5"
+							}
+						},
+						{
+							"id": "repeat",
+							"objectClass": "System",
+							"sid": 588930915275566,
+							"parameters": {
+								"count": "floor(random(1, 5))"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 447459154379110,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 438573166383780,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 454991063853810,
+							"parameters": {
+								"instance-variable": "s1",
+								"value": "6"
+							}
+						}
+					],
+					"sid": 984846301801958
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 275823137637324,
+							"parameters": {
+								"instance-variable": "gen",
+								"comparison": 0,
+								"value": "106"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Спрайт7",
+							"sid": 924245824698352,
+							"parameters": {
+								"instance-variable": "s1",
+								"comparison": 0,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 739410922962418,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 352627747097236,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 343624958391926,
+							"parameters": {
+								"angle": "180",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 641079712420627,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 494843848658941,
+							"parameters": {
+								"object": "z6",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 544504017706231,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 658376070846110,
+							"parameters": {
+								"angle": "0",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 382721670504403,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 236755885308769,
 							"parameters": {
 								"instance-variable": "s1",
 								"value": "200"
@@ -1692,14 +2380,14 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Спрайт7",
-							"sid": 659392778079100,
+							"sid": 550563580204901,
 							"parameters": {
 								"instance-variable": "gen",
 								"value": "0"
 							}
 						}
 					],
-					"sid": 416823004173342
+					"sid": 120402292761822
 				}
 			],
 			"sid": 751219226917953

@@ -380,6 +380,32 @@
 				}
 			],
 			"sid": 287859312082908
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 488336871152291
+				},
+				{
+					"id": "collisions-enabled",
+					"objectClass": "car",
+					"sid": 974916535155819
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Аудио",
+					"sid": 268123122867669,
+					"parameters": {
+						"tag": "\"s\""
+					}
+				}
+			],
+			"sid": 138419540491008
 		}
 	],
 	"sid": 973701948670215
