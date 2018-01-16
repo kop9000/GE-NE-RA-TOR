@@ -2534,7 +2534,70 @@
 						{
 							"id": "move-at-angle",
 							"objectClass": "g1",
-							"sid": 477083868573980,
+							"sid": 247177080405328,
+							"parameters": {
+								"angle": "270",
+								"distance": "128"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 236122561175073,
+							"parameters": {
+								"object": "road",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 561338181838663,
+							"parameters": {
+								"angle": "180",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 267090789439531,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "g1",
+							"sid": 580544022665112,
+							"parameters": {
+								"object": "z3",
+								"layer": "\"m1\"",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "g1",
+							"sid": 337976005607903,
+							"parameters": {
+								"angle": "0"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 938210841860128,
+							"parameters": {
+								"angle": "0",
+								"distance": "90"
+							}
+						},
+						{
+							"id": "move-at-angle",
+							"objectClass": "g1",
+							"sid": 219726513352186,
 							"parameters": {
 								"angle": "270",
 								"distance": "128"
