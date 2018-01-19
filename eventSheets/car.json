@@ -211,7 +211,6 @@
 					"id": "play",
 					"objectClass": "Аудио",
 					"sid": 243430664450920,
-					"disabled": true,
 					"parameters": {
 						"audio-file": "car",
 						"loop": "not-looping",
@@ -252,9 +251,9 @@
 				{
 					"id": "set-progress",
 					"objectClass": "Индикатор",
-					"sid": 613166982604317,
+					"sid": 355681226057473,
 					"parameters": {
-						"value": "100"
+						"value": "Индикатор.Progress-0.1"
 					}
 				}
 			],
