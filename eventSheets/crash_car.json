@@ -1,0 +1,108 @@
+{
+	"name": "crash_car",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Спрайт25",
+					"sid": 971649764243345,
+					"parameters": {
+						"object": "Спрайт26"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт25",
+					"sid": 891796509485329,
+					"parameters": {
+						"instance-variable": "crash",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Спрайт25",
+					"sid": 386324916795198,
+					"parameters": {
+						"animation": "\"as2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-deceleration",
+					"objectClass": "Спрайт25",
+					"sid": 452946181414125,
+					"behaviorType": "Платформа",
+					"parameters": {
+						"deceleration": "240"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 664009017155388,
+					"parameters": {
+						"audio-file": "crash",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 245036794912815
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 789901548140151
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт25",
+					"sid": 301134666005089,
+					"parameters": {
+						"instance-variable": "crash",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Спрайт25",
+					"sid": 839277430527177,
+					"behaviorType": "Платформа",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 498628231468345,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 703976553699748,
+					"parameters": {
+						"layout": "road_nav"
+					}
+				}
+			],
+			"sid": 451862745140608
+		}
+	],
+	"sid": 265615572445110
+}

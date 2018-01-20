@@ -899,6 +899,153 @@
 				}
 			],
 			"sid": 267205434864367
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Жизнь машины",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "car",
+							"sid": 519242838918130,
+							"parameters": {
+								"object": "Спрайт23"
+							}
+						},
+						{
+							"id": "compare-speed",
+							"objectClass": "car",
+							"sid": 622892714310887,
+							"behaviorType": "Машина",
+							"parameters": {
+								"comparison": 4,
+								"speed": "100"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-progress",
+							"objectClass": "Индикатор2",
+							"sid": 722256804624716,
+							"parameters": {
+								"value": "Индикатор2.Progress-floor(random(1, 20))"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Аудио",
+							"sid": 630245904630136,
+							"parameters": {
+								"audio-file": "crash",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 194989356504833
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "car",
+							"sid": 274463778871539,
+							"parameters": {
+								"object": "Спрайт23"
+							}
+						},
+						{
+							"id": "compare-speed",
+							"objectClass": "car",
+							"sid": 682106411917766,
+							"behaviorType": "Машина",
+							"parameters": {
+								"comparison": 3,
+								"speed": "100"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "save",
+							"objectClass": "System",
+							"sid": 561503014225188,
+							"parameters": {
+								"slot": "\"road_save\""
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Спрайт7",
+							"sid": 343064512738612,
+							"parameters": {
+								"instance-variable": "gen",
+								"value": "floor(random(1, 21))"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "road_save",
+							"sid": 926324046510314,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 536308782369974,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "road_save",
+							"sid": 835157997102937,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 167404976798168
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-progress",
+							"objectClass": "Индикатор2",
+							"sid": 118691536152226,
+							"parameters": {
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 937111641793257,
+							"parameters": {
+								"layout": "crash_car"
+							}
+						}
+					],
+					"sid": 971622175783089
+				}
+			],
+			"sid": 642752647408443
 		}
 	],
 	"sid": 973701948670215

@@ -894,7 +894,7 @@
 					"objectClass": "System",
 					"sid": 812946509064766,
 					"parameters": {
-						"layout": "map"
+						"layout": "road_nav"
 					}
 				}
 			],

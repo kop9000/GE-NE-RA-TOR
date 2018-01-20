@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 644226400310471,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "crash",
+			"type": "number",
+			"desc": "",
+			"sid": 729037536294774
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",

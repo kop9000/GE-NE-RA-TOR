@@ -269,7 +269,7 @@
 					"objectClass": "System",
 					"sid": 883739192477860,
 					"parameters": {
-						"layout": "map"
+						"layout": "road_nav"
 					}
 				}
 			],

@@ -253,7 +253,9 @@
 			"z5",
 			"z6",
 			"road6",
-			"road_text"
+			"road_text",
+			"Спрайт37",
+			"Индикатор2"
 		],
 		"subfolders": [
 			{
@@ -299,11 +301,12 @@
 			"main",
 			"main2",
 			"main3",
-			"map",
+			"road_nav",
 			"mario_map2",
 			"mario_map",
 			"m0",
-			"lol"
+			"lol",
+			"crash_car"
 		],
 		"subfolders": []
 	},
@@ -338,7 +341,8 @@
 			"0-info",
 			"02_main3",
 			"0-info2",
-			"zzz"
+			"zzz",
+			"crash_car"
 		],
 		"subfolders": []
 	},
