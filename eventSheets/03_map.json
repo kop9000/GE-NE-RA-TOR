@@ -68,6 +68,15 @@
 			],
 			"actions": [
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 427389841105528,
+					"parameters": {
+						"variable": "car_on",
+						"value": "0"
+					}
+				},
+				{
 					"id": "set-layout-scale",
 					"objectClass": "System",
 					"sid": 150855659480467,

@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"name": "GE-NE-RA-TOR",
+	"name": "GE-NE-RA-TOR pre alfa 0.025",
 	"runtime": "c2",
 	"useWorker": false,
 	"bundleAddons": false,
@@ -252,7 +252,8 @@
 			"z4",
 			"z5",
 			"z6",
-			"road6"
+			"road6",
+			"road_text"
 		],
 		"subfolders": [
 			{

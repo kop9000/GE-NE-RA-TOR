@@ -168,7 +168,7 @@
 				{
 					"type": "text_version",
 					"properties": {
-						"text": "Версия Pre Alfa 0.024",
+						"text": "Версия Pre Alfa 0.025 stabile",
 						"font": "3572",
 						"size": 14,
 						"line-height": 0,
@@ -180,19 +180,19 @@
 							1,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "right",
 						"vertical-alignment": "center",
 						"wrapping": "word",
-						"initially-visible": false,
+						"initially-visible": true,
 						"origin": "top-left"
 					},
 					"uid": 78,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 416,
+						"x": 0,
 						"y": 448,
-						"width": 224,
+						"width": 640,
 						"height": 32,
 						"originX": 0,
 						"originY": 0,

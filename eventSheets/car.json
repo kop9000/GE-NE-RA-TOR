@@ -2,6 +2,16 @@
 	"name": "car",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "car_on",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 709023519973762
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -86,12 +96,12 @@
 					}
 				},
 				{
-					"id": "set-enabled",
+					"id": "set-ignoring-input",
 					"objectClass": "car",
-					"sid": 671682078383699,
+					"sid": 547518725502386,
 					"behaviorType": "Машина",
 					"parameters": {
-						"state": "enabled"
+						"input": "stop-ignoring"
 					}
 				}
 			],
@@ -125,15 +135,6 @@
 					"parameters": {
 						"layer": "\"ui\"",
 						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "car",
-					"sid": 866884227484836,
-					"behaviorType": "Машина",
-					"parameters": {
-						"state": "disabled"
 					}
 				},
 				{
@@ -185,6 +186,24 @@
 					"id": "stop-all",
 					"objectClass": "Аудио",
 					"sid": 774867198983990
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 447768030305409,
+					"parameters": {
+						"variable": "car_on",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "car",
+					"sid": 998494061793946,
+					"behaviorType": "Машина",
+					"parameters": {
+						"input": "start-ignoring"
+					}
 				}
 			],
 			"sid": 738499897399197
@@ -192,6 +211,16 @@
 		{
 			"eventType": "block",
 			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 409532037676112,
+					"parameters": {
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
 				{
 					"id": "is-animation-playing",
 					"objectClass": "car",
@@ -201,30 +230,24 @@
 					}
 				},
 				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 308883565061184
+					"id": "compare-speed",
+					"objectClass": "car",
+					"sid": 140634376400872,
+					"behaviorType": "Машина",
+					"parameters": {
+						"comparison": 1,
+						"speed": "0"
+					}
 				}
 			],
 			"actions": [
 				{
-					"id": "play",
-					"objectClass": "Аудио",
-					"sid": 243430664450920,
-					"parameters": {
-						"audio-file": "car",
-						"loop": "not-looping",
-						"volume": "0",
-						"tag-optional": "\"ct\""
-					}
-				},
-				{
 					"id": "set-playback-rate",
 					"objectClass": "Аудио",
-					"sid": 152962088094778,
+					"sid": 564494496104157,
 					"parameters": {
 						"tag": "\"ct\"",
-						"playback-rate": "car.Машина.Speed"
+						"playback-rate": "car.Машина.Speed/20"
 					}
 				}
 			],
@@ -233,6 +256,61 @@
 		{
 			"eventType": "block",
 			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 652952788121188,
+					"parameters": {
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "car",
+					"sid": 159693987447207,
+					"parameters": {
+						"animation": "\"vd2\""
+					}
+				},
+				{
+					"id": "compare-speed",
+					"objectClass": "car",
+					"sid": 387359374139118,
+					"behaviorType": "Машина",
+					"parameters": {
+						"comparison": 3,
+						"speed": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-playback-rate",
+					"objectClass": "Аудио",
+					"sid": 200028438176925,
+					"parameters": {
+						"tag": "\"ct\"",
+						"playback-rate": "1"
+					}
+				}
+			],
+			"sid": 210023321686311
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 629724605400689,
+					"parameters": {
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
 				{
 					"id": "is-animation-playing",
 					"objectClass": "car",
@@ -263,20 +341,15 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-x-seconds",
+					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 384300847722229,
+					"sid": 832633889702349,
 					"parameters": {
-						"interval-seconds": "0.4"
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "1"
 					}
-				}
-			],
-			"actions": [],
-			"sid": 473328416995609
-		},
-		{
-			"eventType": "block",
-			"conditions": [
+				},
 				{
 					"id": "compare-progress",
 					"objectClass": "Индикатор",
@@ -313,6 +386,16 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 272099600771241,
+					"parameters": {
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
 					"id": "compare-progress",
 					"objectClass": "Индикатор",
 					"sid": 820174402605588,
@@ -320,29 +403,164 @@
 						"comparison": 0,
 						"value": "0"
 					}
+				},
+				{
+					"id": "compare-speed",
+					"objectClass": "car",
+					"sid": 490277282937927,
+					"behaviorType": "Машина",
+					"parameters": {
+						"comparison": 1,
+						"speed": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-acceleration",
+					"objectClass": "car",
+					"sid": 158752268477872,
+					"behaviorType": "Машина",
+					"parameters": {
+						"acceleration": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 452473926222277,
+					"parameters": {
+						"variable": "car_on",
+						"value": "0"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 846794145597008
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 735331635867405,
+					"parameters": {
+						"audio-file": "oh_no_car",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 599201759214782
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 179914969032091,
+					"parameters": {
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-progress",
+					"objectClass": "Индикатор",
+					"sid": 441326036893273,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-speed",
+					"objectClass": "car",
+					"sid": 721165737656770,
+					"behaviorType": "Машина",
+					"parameters": {
+						"comparison": 3,
+						"speed": "5"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 469973777312520
 				}
 			],
 			"actions": [
 				{
 					"id": "set-ignoring-input",
 					"objectClass": "car",
-					"sid": 944662152393330,
+					"sid": 143451696672164,
 					"behaviorType": "Машина",
 					"parameters": {
 						"input": "start-ignoring"
 					}
 				},
 				{
-					"id": "set-deceleration",
-					"objectClass": "car",
-					"sid": 347744903830009,
-					"behaviorType": "Машина",
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 668928075590940,
 					"parameters": {
-						"deceleration": "600"
+						"variable": "car_on",
+						"value": "0"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 691012242422787
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 231592809341283,
+					"parameters": {
+						"audio-file": "oh_no_car",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
-			"sid": 599201759214782
+			"sid": 930059459196082
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-progress",
+					"objectClass": "Индикатор",
+					"sid": 682605595869381,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 424003016145207
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 167186658599537,
+					"parameters": {
+						"audio-file": "oh_no_car",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 297785168082737
 		},
 		{
 			"eventType": "block",
@@ -354,6 +572,11 @@
 					"parameters": {
 						"object": "road6"
 					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 263578005332234
 				}
 			],
 			"actions": [
@@ -367,18 +590,34 @@
 						"volume": "0",
 						"tag-optional": "\"s\""
 					}
-				},
+				}
+			],
+			"sid": 287859312082908
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "car",
+					"sid": 974215015134820,
+					"parameters": {
+						"object": "road6"
+					}
+				}
+			],
+			"actions": [
 				{
 					"id": "set-playback-rate",
 					"objectClass": "Аудио",
-					"sid": 171893551876927,
+					"sid": 669085493938436,
 					"parameters": {
 						"tag": "\"s\"",
 						"playback-rate": "car.Машина.Speed"
 					}
 				}
 			],
-			"sid": 287859312082908
+			"sid": 972318069346068
 		},
 		{
 			"eventType": "block",
@@ -405,6 +644,261 @@
 				}
 			],
 			"sid": 138419540491008
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 278598537010050,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 133256982674751,
+					"parameters": {
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-progress",
+					"objectClass": "Индикатор",
+					"sid": 482531220969958,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 641569621856796,
+					"parameters": {
+						"audio-file": "oh_no_car",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "road_text",
+					"sid": 153231967420911,
+					"parameters": {
+						"text": "\"Ох. Бензин кончился\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 795047014131233,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "road_text",
+					"sid": 951589737448190,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 602314887918365
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 290388381402868,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 193434111941045,
+					"parameters": {
+						"variable": "car_on",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-progress",
+					"objectClass": "Индикатор",
+					"sid": 886756756772273,
+					"parameters": {
+						"comparison": 1,
+						"value": "0"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "car",
+					"sid": 501006830020170,
+					"parameters": {
+						"animation": "\"vd2\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "car",
+					"sid": 991272683098090,
+					"behaviorType": "Машина",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 424469166239633,
+					"parameters": {
+						"variable": "car_on",
+						"value": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 129276932491274,
+					"parameters": {
+						"audio-file": "car",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"ct\""
+					}
+				},
+				{
+					"id": "set-master-volume",
+					"objectClass": "Аудио",
+					"sid": 952520409190118,
+					"parameters": {
+						"db": "-10"
+					}
+				},
+				{
+					"id": "set-acceleration",
+					"objectClass": "car",
+					"sid": 939304406152878,
+					"behaviorType": "Машина",
+					"parameters": {
+						"acceleration": "100"
+					}
+				}
+			],
+			"sid": 869736127005449
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 675613630356263,
+					"parameters": {
+						"key": 17
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "car",
+					"sid": 569454152388231,
+					"parameters": {
+						"animation": "\"vd1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-progress",
+					"objectClass": "Индикатор",
+					"sid": 994324344880535,
+					"parameters": {
+						"value": "Индикатор.Progress+0.1"
+					}
+				}
+			],
+			"sid": 759052097556154
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 799581454766799,
+					"parameters": {
+						"key": 17
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "car",
+					"sid": 657562927962493,
+					"parameters": {
+						"animation": "\"vd1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "road_text",
+					"sid": 153707014923044,
+					"parameters": {
+						"text": "\"Заправка \" & Индикатор.Progress"
+					}
+				}
+			],
+			"sid": 941904577859853
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Клавиатура",
+					"sid": 308954306074085,
+					"parameters": {
+						"key": 17
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "car",
+					"sid": 696991836189698,
+					"parameters": {
+						"animation": "\"vd1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "road_text",
+					"sid": 753900306796306,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 267205434864367
 		}
 	],
 	"sid": 973701948670215
