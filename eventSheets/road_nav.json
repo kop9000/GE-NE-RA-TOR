@@ -1,0 +1,221 @@
+{
+	"name": "road_nav",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "mas",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 333826349800309
+		},
+		{
+			"eventType": "variable",
+			"name": "mas2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 149213371980881
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "main_keyn"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "gen_road_up"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "gen_road_l"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "gen_road_r"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "road_end"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "m"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "ssss"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "car"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "zzz"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 544248537701113
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 427389841105528,
+					"parameters": {
+						"variable": "car_on",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-layout-scale",
+					"objectClass": "System",
+					"sid": 150855659480467,
+					"parameters": {
+						"scale": "1"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 304165682001586,
+					"parameters": {
+						"object-to-create": "Спрайт4",
+						"layer": "\"m0\"",
+						"x": "0",
+						"y": "0"
+					}
+				},
+				{
+					"id": "set-fade-in-time",
+					"objectClass": "Спрайт4",
+					"sid": 850882044496523,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-in-time": "0"
+					}
+				},
+				{
+					"id": "set-wait-time",
+					"objectClass": "Спрайт4",
+					"sid": 118460032525963,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"wait-time": "0"
+					}
+				},
+				{
+					"id": "set-fade-out-time",
+					"objectClass": "Спрайт4",
+					"sid": 622879325834916,
+					"behaviorType": "Исчезновение",
+					"parameters": {
+						"fade-out-time": "1"
+					}
+				},
+				{
+					"id": "restart-fade",
+					"objectClass": "Спрайт4",
+					"sid": 695702016031061,
+					"behaviorType": "Исчезновение"
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 991675085298866
+				}
+			],
+			"sid": 111849204693800
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 491350228265858,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 337404611451855,
+					"parameters": {
+						"layout": "road_nav"
+					}
+				}
+			],
+			"sid": 560768817453012
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 625112309191605,
+					"parameters": {
+						"instance-variable": "gen",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 892197880844909,
+					"parameters": {
+						"instance-variable": "gen2",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Спрайт7",
+					"sid": 239178365054161,
+					"parameters": {
+						"instance-variable": "gen3",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "has-los-to-object",
+					"objectClass": "g1",
+					"sid": 297164652039835,
+					"behaviorType": "ПолеЗрения",
+					"parameters": {
+						"object": "car"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Спрайт7",
+					"sid": 451783187388779,
+					"parameters": {
+						"instance-variable": "gen",
+						"value": "floor(random(1, 111))"
+					}
+				}
+			],
+			"sid": 629887545231168
+		}
+	],
+	"sid": 113951871659347
+}
