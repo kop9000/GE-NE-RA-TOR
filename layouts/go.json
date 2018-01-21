@@ -1,0 +1,96 @@
+{
+	"name": "go",
+	"layers": [
+		{
+			"name": "sef1",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "Спрайт7",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "s0",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 113,
+					"instanceVariables": {
+						"gen": 0,
+						"gen2": 0,
+						"gen3": 0,
+						"s1": 0,
+						"r_g1": 0,
+						"r_g2": 0,
+						"wes": 0,
+						"m": 0,
+						"car_key": 0
+					},
+					"behaviors": {
+						"8Направлений": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ПрокрутитьДо": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 304,
+						"y": 224,
+						"width": 64,
+						"height": 64,
+						"originX": 0.48484848484848486,
+						"originY": 0.48484848484848486,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				}
+			],
+			"sid": 654024600147222,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0,
+				0,
+				0,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		}
+	],
+	"sid": 213668954481542,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 640,
+	"height": 480,
+	"unboundedScrolling": false,
+	"eventSheet": "go"
+}
