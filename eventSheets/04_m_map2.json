@@ -14,6 +14,32 @@
 			"includeSheet": "coin"
 		},
 		{
+			"eventType": "include",
+			"includeSheet": "exit"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 914772528395376
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 396681966326559,
+					"parameters": {
+						"variable": "key",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 923457351807694
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{

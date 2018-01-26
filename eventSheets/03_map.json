@@ -4,6 +4,10 @@
 		{
 			"eventType": "include",
 			"includeSheet": "main_keyn"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "exit"
 		}
 	],
 	"sid": 220473141020606

@@ -1,0 +1,35 @@
+{
+	"name": "exit",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Клавиатура",
+					"sid": 668856693321929,
+					"parameters": {
+						"key": 27
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Аудио",
+					"sid": 610187584558846
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 917141789666760,
+					"parameters": {
+						"layout": "main"
+					}
+				}
+			],
+			"sid": 781552651839421
+		}
+	],
+	"sid": 546620951485123
+}

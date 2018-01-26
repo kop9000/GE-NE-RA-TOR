@@ -2,6 +2,10 @@
 	"name": "01_main2",
 	"events": [
 		{
+			"eventType": "include",
+			"includeSheet": "exit"
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -19,6 +23,15 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 773866741453928,
+					"parameters": {
+						"variable": "key",
+						"value": "0"
+					}
+				},
 				{
 					"id": "create-object",
 					"objectClass": "System",
