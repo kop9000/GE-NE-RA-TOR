@@ -11,24 +11,24 @@ http://v90421ou.beget.tech/gnrt/
 
 Android
 
-http://v90421ou.beget.tech/gnrt/d/GE-NE-RA-TOR%20pre%20alfa%200.025/GE-NE-RA-TOR%20pre%20alfa%200.025.apk
+https://drive.google.com/open?id=1HIJIJ32mN96N9ez4gEH28gpeI5buSwXW
 
 linux32
 
-http://v90421ou.beget.tech/gnrt/d/GE-NE-RA-TOR%20pre%20alfa%200.025/GE-NE-RA-TOR%20pre%20alfa%200.025%20linux32.zip
+https://drive.google.com/open?id=1Moaaxv8JQz3H19Vh8PJRVnBaF6UXFlaZ
 
 linux64
 
-http://v90421ou.beget.tech/gnrt/d/GE-NE-RA-TOR%20pre%20alfa%200.025/GE-NE-RA-TOR%20pre%20alfa%200.025%20linux64.zip
+https://drive.google.com/open?id=15t8TRy74amoowx6ickOccw5I8xaBLuzm
 
 mac64
 
-http://v90421ou.beget.tech/gnrt/d/GE-NE-RA-TOR%20pre%20alfa%200.025/GE-NE-RA-TOR%20pre%20alfa%200.025%20mac64.zip
+https://drive.google.com/open?id=1jyPed5eG_L66nykbLGDmFaQSBKQzO825
 
 win32
 
-http://v90421ou.beget.tech/gnrt/d/GE-NE-RA-TOR%20pre%20alfa%200.025/GE-NE-RA-TOR%20pre%20alfa%200.025%20win32.zip
+https://drive.google.com/open?id=1_2VS4QyKW2AGPluE4ItmVcjzIugHmU7L
 
 win64
 
-http://v90421ou.beget.tech/gnrt/d/GE-NE-RA-TOR%20pre%20alfa%200.025/GE-NE-RA-TOR%20pre%20alfa%200.025%20win64.zip
+https://drive.google.com/open?id=1sqNXwD5dcaJ0eXC_PcWoAdM1SbPHnHsY
